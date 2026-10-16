@@ -170,6 +170,13 @@
     $("news").innerHTML = list.map(n => `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="src">${esc(n.source)} · ${fmtDate(n.date)}</span></li>`).join("");
   }
   function sources() {
+    const gen = new Date(DATA.generated_at);
+    const asof = $("sources-asof");
+    if (asof) {
+      asof.textContent = Number.isNaN(gen.getTime()) ? "" : "Updated " + gen.toLocaleDateString("en-US", {
+        month: "short", day: "numeric", timeZone: "America/New_York"
+      });
+    }
     $("sources").innerHTML = DATA.sources.map(s => `<li><span>${esc(s.source)}</span><span class="${s.ok ? "ok" : "err"}">${s.ok ? s.items + " items · " + s.rounds + " rounds" : "unavailable"}</span></li>`).join("");
   }
 

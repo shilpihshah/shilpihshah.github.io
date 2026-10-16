@@ -117,8 +117,8 @@ td.co a:hover{text-decoration:underline}
 .footnote{font-size:13.5px;color:var(--muted);margin-top:16px;font-style:italic}
 
 /* about */
-.about{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:start}
-.avatar{width:200px;height:200px;border-radius:50%;background:linear-gradient(135deg,var(--navy),var(--accent));color:#fff;display:flex;align-items:center;justify-content:center;font-size:64px;letter-spacing:2px}
+.about{display:grid;grid-template-columns:160px 1fr;gap:28px;align-items:start}
+.headshot{width:160px;height:160px;max-width:100%;border-radius:50%;object-fit:cover;display:block}
 .about h2{margin-top:0;font-weight:normal;color:var(--navy);font-size:28px}
 .interests{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}
 .contact a{display:inline-block;margin-right:16px}
@@ -134,8 +134,8 @@ footer.site-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wr
   body{font-size:16px}
   .hero h1,article.post h1{font-size:27px}
   article.post{padding:24px 20px}
-  .about{grid-template-columns:1fr}
-  .avatar{width:120px;height:120px;font-size:40px}
+  .about{grid-template-columns:1fr;justify-items:start}
+  .headshot{width:140px;height:140px}
   nav.tabs{width:100%;justify-content:space-between;padding-bottom:10px}
   nav.tabs a{flex:1;text-align:center;padding:7px 8px}
   .kpi .k-val{font-size:22px}

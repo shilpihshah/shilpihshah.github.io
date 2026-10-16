@@ -1,0 +1,16 @@
+{
+  "source": "PitchBook (manual export)",
+  "as_of": null,
+  "notes": "Add rows manually from a PitchBook export. Leave 'deals' empty until real data is available; the dashboard shows 'Coming soon' when it is empty. See '_example_deal' for the expected fields (not rendered).",
+  "_example_deal": {
+    "company": "string",
+    "stage": "Seed | Series A | Series B | Series C+ | Growth",
+    "deal_date": "YYYY-MM-DD",
+    "deal_size_musd": "number (USD millions)",
+    "post_money_musd": "number or null",
+    "lead_investors": ["string"],
+    "sector": "string",
+    "pitchbook_id": "string (optional)"
+  },
+  "deals": []
+}

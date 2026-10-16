@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shilpi Shah: Notes on AI &amp; Venture</title>
+<meta name="description" content="Notes on AI-native startups and early-stage venture, plus a live dashboard of AI funding rounds.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%231F4E79%22/%3E%3Ctext x=%2232%22 y=%2243%22 font-family=%22Georgia%22 font-size=%2230%22 fill=%22white%22 text-anchor=%22middle%22%3ESS%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="#blog"><b>Shilpi Shah</b><span>Notes on AI &amp; Venture</span></a>
+  <nav class="tabs" id="tabs">
+    <a href="#blog" data-tab="blog">Blog</a>
+    <a href="#dashboard" data-tab="dashboard">Dashboard</a>
+    <a href="#about" data-tab="about">About</a>
+  </nav>
+</div></header>
+
+<!-- ============ BLOG ============ -->
+<section class="tab" id="tab-blog">
+  <div class="hero"><div class="wrap">
+    <div class="eyebrow">Notes</div>
+    <h1>Notes on AI-native companies and early-stage venture</h1>
+    <p>Where real use cases meet real workflows: the application layer, the future of work, and the markets I spend my time on.</p>
+  </div></div>
+  <main><div class="wrap narrow">
+    <div class="post-list">
+      <div class="post-card">
+        <div class="meta"><span class="tag">Market structure</span><span class="tag">Series A/B</span> Oct 16, 2026</div>
+        <h2><a href="posts/mega-rounds-series-ab.html">27 companies took a third of the money. What that means at Series A and B.</a></h2>
+        <p>Q3 2026 set a record for billion-dollar rounds. The headline totals don't describe what most companies are raising. The medians do, and they point to where disciplined early-stage capital should go.</p>
+        <a class="readmore" href="posts/mega-rounds-series-ab.html">Read &rarr;</a>
+      </div>
+      <div class="post-card">
+        <div class="meta"><span class="tag">Application layer</span><span class="tag">Diligence</span> Oct 16, 2026</div>
+        <h2><a href="posts/ai-native-vs-ai-washed.html">AI-native vs. AI-washed: how I tell them apart</a></h2>
+        <p>Five questions I ask to separate companies built around AI from SaaS that added it to the slide: who does the work, what they charge for, whether the data compounds, and whether the next model release helps or hurts.</p>
+        <a class="readmore" href="posts/ai-native-vs-ai-washed.html">Read &rarr;</a>
+      </div>
+    </div>
+    <div class="side-note">I track AI funding rounds as they're announced on the <a href="#dashboard">VC Pulse dashboard</a>. It updates daily from public sources.</div>
+  </div></main>
+</section>
+
+<!-- ============ DASHBOARD ============ -->
+<section class="tab" id="tab-dashboard">
+  <main><div class="wrap">
+    <div class="dash-head">
+      <div><div class="eyebrow">VC Pulse</div><h2>AI funding rounds, as they're announced</h2></div>
+      <div class="updated"><span class="live-dot"></span>Last updated <span id="updated">…</span></div>
+    </div>
+
+    <div class="kpis" id="kpis">
+      <div class="kpi"><div class="k-label">Rounds, last 7 days</div><div class="k-val" id="k-week">–</div><div class="k-sub" id="k-week-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="k-label">Largest round</div><div class="k-val" id="k-max">–</div><div class="k-sub" id="k-max-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="k-label">Most active stage</div><div class="k-val" id="k-stage">–</div><div class="k-sub" id="k-stage-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="k-label">Median Series A / B</div><div class="k-val" id="k-ab">–</div><div class="k-sub" id="k-ab-sub">&nbsp;</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card chart"><h3>Rounds by stage <small id="c1-sub"></small></h3><div id="chart-stage"></div></div>
+      <div class="card chart"><h3>Disclosed capital by sector <small>$M</small></h3><div id="chart-sector"></div></div>
+    </div>
+
+    <div class="card" id="rounds-card" style="margin-bottom:18px">
+      <h3>Latest rounds <small id="count"></small></h3>
+      <div class="filters">
+        <select id="f-stage" aria-label="Stage"></select>
+        <select id="f-sector" aria-label="Sector"></select>
+        <button class="chip" id="f-ab" type="button" aria-pressed="false">Series A/B only</button>
+        <input id="f-q" type="search" placeholder="Search company or investor" aria-label="Search">
+      </div>
+      <div class="table-wrap"><table id="rounds">
+        <thead><tr>
+          <th data-k="date">Date</th><th data-k="company">Company</th><th data-k="stage">Stage</th>
+          <th data-k="amount_musd" class="amt">Amount</th><th data-k="sectors" class="hide-sm">Sector</th>
+          <th data-k="investors" class="hide-sm">Investors</th><th data-k="source" class="hide-sm">Source</th>
+        </tr></thead><tbody></tbody>
+      </table></div>
+      <nav class="pager" id="pager" aria-label="Rounds pages">
+        <button type="button" id="pg-prev" class="pg-btn" aria-label="Previous page" aria-controls="rounds">&lsaquo;</button>
+        <span id="pg-info" class="pg-info" aria-live="polite">–</span>
+        <button type="button" id="pg-next" class="pg-btn" aria-label="Next page" aria-controls="rounds">&rsaquo;</button>
+      </nav>
+    </div>
+
+    <div class="grid2">
+      <div class="card"><h3>News feed <small>latest 5</small></h3><ul class="news" id="news"></ul></div>
+      <div>
+        <div class="card" style="margin-bottom:14px">
+          <h3>PitchBook snapshot <small id="pb-asof"></small></h3>
+          <div id="pitchbook"></div>
+        </div>
+        <div class="card"><h3>Sources <small>this refresh</small></h3><ul class="sources" id="sources"></ul></div>
+      </div>
+    </div>
+
+    <p class="footnote">Auto-aggregated from public sources; periodic PitchBook snapshots added manually. Round details are parsed from headlines by rules and may be incomplete. Non-USD amounts (≈) are converted approximately. Check figures against the linked source.</p>
+  </div></main>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="tab" id="tab-about">
+  <main><div class="wrap narrow">
+    <div class="about">
+      <div class="avatar" aria-hidden="true">SS</div>
+      <div>
+        <h2>About</h2>
+        <p>I'm Shilpi Shah, an MBA candidate at The Wharton School focused on early-stage venture investing in AI-native companies at Series A and B.</p>
+        <p>Before Wharton, I spent four years in M&amp;A advisory at PwC in San Francisco, working on technology transactions: building models, running diligence, and pressure-testing the stories companies tell about themselves. That background shapes how I look at startups. I start from the workflow, the unit economics, and the likely exit, then work back to the pitch.</p>
+        <p>I'm most interested in AI with real use cases, especially where software is starting to do the work and not just assist with it.</p>
+        <div class="interests">
+          <span class="tag">AI with real use cases</span><span class="tag">Future of work</span><span class="tag">Edtech</span>
+          <span class="tag">Consumer &amp; wellness</span><span class="tag">Fintech</span><span class="tag">Climate</span>
+        </div>
+        <p class="contact"><a href="mailto:shilpihs@wharton.upenn.edu">shilpihs@wharton.upenn.edu</a><a href="#" rel="noopener">LinkedIn</a><!-- TODO: replace # with LinkedIn URL --></p>
+      </div>
+    </div>
+  </div></main>
+</section>
+
+<footer class="site-footer"><div class="wrap"><span>&copy; 2026 Shilpi Shah</span><span>Notes on AI &amp; Venture</span></div></footer>
+<script src="assets/dashboard.js"></script>
+</body>
+</html>

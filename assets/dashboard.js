@@ -1,4 +1,4 @@
-/* Tabs + VC Pulse dashboard. Reads data.json and pitchbook_snapshot.json (no dependencies). */
+/* Tabs + VC Pulse dashboard. Reads data.json (no dependencies). */
 (function () {
   // ---------- tabs ----------
   const TABS = ["blog", "dashboard", "about"];
@@ -36,7 +36,6 @@
     try { DATA = await getJSON("data.json"); }
     catch (e) { $("updated").textContent = "unavailable (serve this folder over http)"; return; }
     renderAll();
-    loadPitchbook();
   }
   // re-pull every 15 minutes while open
   setInterval(() => { if (loaded) { getJSON("data.json").then(d => { DATA = d; renderAll(); }).catch(() => {}); } }, 15 * 60 * 1000);
@@ -178,19 +177,6 @@
       });
     }
     $("sources").innerHTML = DATA.sources.map(s => `<li><span>${esc(s.source)}</span><span class="${s.ok ? "ok" : "err"}">${s.ok ? s.items + " items · " + s.rounds + " rounds" : "unavailable"}</span></li>`).join("");
-  }
-
-  // ---------- PitchBook snapshot ----------
-  async function loadPitchbook() {
-    const el = $("pitchbook");
-    let pb = null;
-    try { pb = await getJSON("pitchbook_snapshot.json"); } catch (e) { pb = null; }
-    const deals = pb && Array.isArray(pb.deals) ? pb.deals : [];
-    if (!deals.length) { el.innerHTML = `<div class="empty"><b>Coming soon</b>Curated PitchBook deal snapshots will be added here periodically.</div>`; return; }
-    if (pb.as_of) $("pb-asof").textContent = "as of " + pb.as_of;
-    el.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Company</th><th>Stage</th><th class="amt">Deal size</th><th class="amt">Post-money</th><th>Lead</th></tr></thead><tbody>` +
-      deals.map(d => `<tr><td class="co">${esc(d.company)}</td><td><span class="stage">${esc(d.stage)}</span></td><td class="amt">${money(d.deal_size_musd)}</td><td class="amt">${d.post_money_musd != null ? money(d.post_money_musd) : "–"}</td><td class="inv">${esc((d.lead_investors || []).join(", "))}</td></tr>`).join("") +
-      `</tbody></table></div>`;
   }
 
   route();

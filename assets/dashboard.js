@@ -1,4 +1,4 @@
-/* Tabs + VC Pulse dashboard. Reads data.json (no dependencies). */
+/* Tabs + VC Pulse dashboard. Reads data.json and data/key_voices.json (no dependencies). */
 (function () {
   // ---------- tabs ----------
   const TABS = ["blog", "dashboard", "about"];
@@ -34,8 +34,9 @@
   async function load() {
     loaded = true;
     try { DATA = await getJSON("data.json"); }
-    catch (e) { $("updated").textContent = "unavailable (serve this folder over http)"; return; }
-    renderAll();
+    catch (e) { $("updated").textContent = "unavailable (serve this folder over http)"; }
+    if (DATA) renderAll();
+    loadVoices();
   }
   // re-pull every 15 minutes while open
   setInterval(() => { if (loaded) { getJSON("data.json").then(d => { DATA = d; renderAll(); }).catch(() => {}); } }, 15 * 60 * 1000);
@@ -177,6 +178,54 @@
       });
     }
     $("sources").innerHTML = DATA.sources.map(s => `<li><span>${esc(s.source)}</span><span class="${s.ok ? "ok" : "err"}">${s.ok ? s.items + " items · " + s.rounds + " rounds" : "unavailable"}</span></li>`).join("");
+  }
+
+  // ---------- key voices (hand-maintained; not written by update_data.py) ----------
+  function shortDate(iso) {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "";
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+  }
+  function voicesLabel(updated) {
+    const m = String(updated || "").match(/^([A-Za-z]+)\s+(\d{1,2})/);
+    return m ? "Updated " + m[1] + " " + Number(m[2]) : "";
+  }
+  function safeHttp(u) {
+    try {
+      const url = new URL(u, location.origin);
+      if (url.protocol === "https:" || url.protocol === "http:") return url.href;
+    } catch (e) {}
+    return "";
+  }
+  async function loadVoices() {
+    const grid = $("voice-grid"), asof = $("voices-asof");
+    if (!grid) return;
+    let data;
+    try { data = await getJSON("data/key_voices.json"); }
+    catch (e) {
+      grid.innerHTML = `<p class="voice-missing">Key voices are unavailable right now.</p>`;
+      return;
+    }
+    if (asof) asof.textContent = voicesLabel(data.updated);
+    const voices = Array.isArray(data.voices) ? data.voices : [];
+    grid.innerHTML = voices.map(v => {
+      const items = (Array.isArray(v.items) ? v.items : []).map(it => {
+        const href = safeHttp(it.post_url);
+        const link = href ? `<a class="voice-link" href="${esc(href)}" target="_blank" rel="noopener">View on X</a>` : "";
+        return `<div class="voice-item">
+          <p class="voice-date">${esc(shortDate(it.created_at))}</p>
+          <p class="voice-plain">${esc(it.plain_english)}</p>
+          <blockquote class="voice-quote">${esc(it.text_excerpt)}</blockquote>
+          <p class="voice-why"><b>Why it matters</b>${esc(it.why_it_matters)}</p>
+          ${link}
+        </div>`;
+      }).join("");
+      return `<article class="voice">
+        <h4>${esc(v.name)}</h4>
+        <p class="voice-role">${esc(v.role)}</p>
+        ${items}
+      </article>`;
+    }).join("");
   }
 
   route();

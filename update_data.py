@@ -14,7 +14,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OUT = HERE / "data.json"
+OUT = HERE / "data.json"  # funding rounds only; never data/key_voices.json
 WINDOW_DAYS = 45          # keep this many days of history
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/126 Safari/537.36 VCPulse/1.0")

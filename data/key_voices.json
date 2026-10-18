@@ -1,0 +1,86 @@
+{
+  "updated": "Oct 17, 2026",
+  "voices": [
+    {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "role": "AI researcher; founding member of OpenAI, former Tesla AI lead",
+      "group": "builder",
+      "items": [
+        {
+          "post_url": "https://x.com/karpathy/status/2109361546505966046",
+          "created_at": "2026-10-11T19:12:37Z",
+          "text_excerpt": "this gap in shared understanding of LLM capability is *widening*… Napkin math somewhere around 6B people (~75% of the population) have barely come…",
+          "plain_english": "Karpathy says the gap between the few people who really use AI and the billions who have barely tried it is getting wider, not smaller.",
+          "why_it_matters": "Most of the market still hasn't adopted AI, so products that bring it to everyday users and workers have a lot of room to grow."
+        },
+        {
+          "post_url": "https://x.com/karpathy/status/2105819303471976479",
+          "created_at": "2026-10-02T00:37:00Z",
+          "text_excerpt": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks: Writing. Something I've had success with…",
+          "plain_english": "As AI writes more of our work, people will spend more time checking and understanding what it produced, and he shares tips for getting clearer output.",
+          "why_it_matters": "Reviewing and verifying AI output is becoming a real part of the workday, which opens room for tools that make that review faster and more reliable."
+        }
+      ]
+    },
+    {
+      "handle": "mustafasuleyman",
+      "name": "Mustafa Suleyman",
+      "role": "CEO, Microsoft AI; co-founder of DeepMind and Inflection",
+      "group": "builder",
+      "items": [
+        {
+          "post_url": "https://x.com/mustafasuleyman/status/2109655335250366752",
+          "created_at": "2026-10-12T14:40:02Z",
+          "text_excerpt": "Our new silicon is 🔥 40% more tokens per watt!",
+          "plain_english": "Microsoft's new in-house AI chip produces 40% more AI output for the same amount of electricity.",
+          "why_it_matters": "Power is now a main limit on AI growth, so chips that get more out of each watt change data-center costs and who wins in AI infrastructure."
+        },
+        {
+          "post_url": "https://x.com/mustafasuleyman/status/2105699115602677984",
+          "created_at": "2026-10-01T16:39:25Z",
+          "text_excerpt": "We're launching the most accurate real time transcription model in the world... #1 !!! 55% faster and 60% cheaper than ElevenLabs. Come build agents on our platform!",
+          "plain_english": "Microsoft launched a live speech-to-text model it says is the most accurate available, and faster and cheaper than ElevenLabs, a leading voice AI startup.",
+          "why_it_matters": "Big tech is undercutting voice AI startups on price, so startups in that space need an edge beyond the model itself."
+        }
+      ]
+    },
+    {
+      "handle": "martin_casado",
+      "name": "Martin Casado",
+      "role": "General Partner, a16z",
+      "group": "investor",
+      "items": [
+        {
+          "post_url": "https://x.com/martin_casado/status/2111127389963219008",
+          "created_at": "2026-10-16T16:09:27Z",
+          "text_excerpt": "I wonder if we'll get to a point where being distilled becomes profitable to the labs. If they spend X to create a model. And more than 20 companies pay 1/20th of that to distill it…",
+          "plain_english": "Casado wonders whether AI labs could profit by charging other companies to copy their models into smaller ones, a process called distillation, instead of fighting it.",
+          "why_it_matters": "If labs start selling access for distillation, the cost of building AI products drops, and the big labs become a paid layer that everyone else builds on."
+        },
+        {
+          "post_url": "https://x.com/martin_casado/status/2111166367894237402",
+          "created_at": "2026-10-16T18:44:20Z",
+          "text_excerpt": "And interesting frontier lab strategy would be to encourage distillation, set price that mass distillation is unit economic positive, and then just focus on building the best models.",
+          "plain_english": "He suggests a top lab could price copying so it makes money on it, keep building the best models, and leave other companies depending on it with no way to catch up.",
+          "why_it_matters": "It's a warning that startups built on copied models may never catch up to the lab they copied, which matters when judging how defensible they are."
+        }
+      ]
+    },
+    {
+      "handle": "ilyasut",
+      "name": "Ilya Sutskever",
+      "role": "Co-founder, Safe Superintelligence (SSI); OpenAI co-founder",
+      "group": "builder",
+      "items": [
+        {
+          "post_url": "https://x.com/ilyasut/status/2094881278621253755",
+          "created_at": "2026-09-01T20:13:12Z",
+          "text_excerpt": "Neoclouds have limited cybersecurity. Next time agents successfully go rouge, they'll try taking over a neocloud to run more copies. This is bad.",
+          "plain_english": "Sutskever warns that newer AI cloud providers have weak security, and a rogue AI agent could try to take one over to run more copies of itself.",
+          "why_it_matters": "Security is becoming a buying criterion for neoclouds, which is a risk for weak providers and an opening for AI-focused security companies."
+        }
+      ]
+    }
+  ]
+}

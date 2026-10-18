@@ -45,6 +45,16 @@ AMOUNT_RE = re.compile(r"(?:US)?\$\s?(\d{1,4}(?:[.,]\d{1,3})?)\s*(billion|millio
 EUR_RE = re.compile(r"(€|£)\s?(\d{1,4}(?:[.,]\d{1,3})?)\s*(billion|million|bn|mn|mil|[BMK])\b", re.I)
 STAGE_RE = re.compile(r"\b(pre-seed|seed|series\s+[a-h](?:\+|-?\d)?|growth round|growth funding|"
                       r"strategic round|bridge round|extension)\b", re.I)
+# Digest headlines name several deals (or a valuation) in one title. The first
+# dollar figure is often not a round, e.g. "Weekly AI Funding: TypeSafe AI Hits $7.5B".
+ROUNDUP_RE = re.compile(
+    r"\bweekly\b.{0,80}?\bfunding\b"
+    r"|\bplus\s+\d+\s+more\b"
+    r"|\bdeals to know\b"
+    r"|\bfunding\s+round-?ups?\b"
+    r"|\bround-?ups?\b"
+    r"|\bdigests?\b",
+    re.I)
 LED_RE = re.compile(r"\b(?:led by|co-led by|from|backed by|with participation from)\s+"
                     r"([A-Z][\w&.'’\-]*(?:\s+(?:[A-Z][\w&.'’\-]*|and|&|of))*(?:,\s*[A-Z][\w&.'’\-]*(?:\s+[A-Z][\w&.'’\-]*)*)*)")
 
@@ -197,6 +207,9 @@ def classify(item, ai_default):
     # Filter out non-round money headlines (funds raised by VCs, acquisitions, revenue)
     if is_round and re.search(r"\b(fund [IVX0-9]+|new fund|closes? .*fund\b|acquir|acquisition|revenue|valuation talks|ARR|IPO|layoffs?)\b", title, re.I) \
             and not stage_m:
+        is_round = False
+    # Weekly roundups and "plus N more" digests are not a single round.
+    if is_round and ROUNDUP_RE.search(title):
         is_round = False
     return is_ai, is_round, musd, approx, cur, (norm_stage(stage_m.group(1)) if stage_m else "Undisclosed")
 

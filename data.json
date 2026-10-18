@@ -962,24 +962,6 @@
    "feed": "Google News: AI Series A"
   },
   {
-   "id": "manus|7500",
-   "company": "Manus AI",
-   "stage": "Undisclosed",
-   "amount_musd": 7500.0,
-   "amount_approx": false,
-   "currency": "$",
-   "investors": null,
-   "sectors": [
-    "Horizontal AI"
-   ],
-   "date": "2026-10-11T09:49:08+00:00",
-   "title": "Weekly AI Funding: TypeSafe AI Hits $7.5B, Manus AI Raises $500M+ (Oct 7-Oct 12, 2026)",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNG9VaFc4NEV6VThQeU12U2ROOFdvZThXMjVENzMxWTB4Ymg4dGdyQ01HdGlFeGQwcDY0em9JTjdsY0d0UHRoVWZhTTV6ZXF0SXNTZWkycmNyMk1seFVPUmt3YlpVaHY2aXNwaERIbGtnX3k3VjdjRlppU0VXbUNmMXIwbm1QN19wdmJmbEdTRGk5cjU3UERQdTZ3cjBoanNLZTdrRmVNclF5UQ?oc=5",
-   "source": "AI Funding Tracker",
-   "feed": "Google News: AI Series A",
-   "also_reported_by": []
-  },
-  {
    "id": "baseten|1500",
    "company": "Baseten",
    "stage": "Undisclosed",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:31:48+00:00",
+ "generated_at": "2026-10-25T14:56:50+00:00",
  "window_days": 45,
  "sources": [
   {
@@ -42,26 +42,26 @@
   {
    "source": "Google News: AI Series A",
    "ok": true,
-   "items": 68,
+   "items": 66,
    "rounds": 55
   },
   {
    "source": "Google News: AI Series B",
    "ok": true,
-   "items": 31,
-   "rounds": 15
+   "items": 42,
+   "rounds": 23
   },
   {
    "source": "Google News: AI seed round",
    "ok": true,
-   "items": 79,
-   "rounds": 62
+   "items": 77,
+   "rounds": 60
   },
   {
    "source": "Google News: AI Series C+",
    "ok": true,
-   "items": 54,
-   "rounds": 49
+   "items": 52,
+   "rounds": 47
   }
  ],
  "rounds": [
@@ -103,7 +103,8 @@
    "source": "SiliconANGLE AI",
    "feed": "SiliconANGLE AI",
    "also_reported_by": [
-    "Wowtale"
+    "Wowtale",
+    "Business Wire"
    ]
   },
   {
@@ -378,6 +379,23 @@
    "also_reported_by": []
   },
   {
+   "id": "dataline|11",
+   "company": "Dataline",
+   "stage": "Seed",
+   "amount_musd": 10.6,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Fintech"
+   ],
+   "date": "2026-10-22T07:46:52+00:00",
+   "title": "AI data network Dataline raises $10.6 million seed, plans public token sale: The Block",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPV2lUVV9yeTYtWnd1MDMxazVHQ1JWSHZTODZvNWwzaGVDdVczUUFRR1JHSUwwdzFJWnoxMGlVcVpCT0Y1WGlTOTFkNkRhRkRCRnZrMlEyTjIxWWJWMGlicURoUVhxcW4tX0Zmc3pB?oc=5",
+   "source": "CryptoRank",
+   "feed": "Google News: AI seed round"
+  },
+  {
    "id": "flappingairplanes|1000",
    "company": "Flapping Airplanes",
    "stage": "Series A",
@@ -396,7 +414,8 @@
    "also_reported_by": [
     "TechCrunch",
     "The Daily Star",
-    "UA.NEWS"
+    "UA.NEWS",
+    "Wowtale"
    ]
   },
   {
@@ -567,7 +586,8 @@
    "also_reported_by": [
     "GlobeNewswire",
     "Modern Healthcare",
-    "Pluang"
+    "Pluang",
+    "Modern Healthcare News"
    ]
   },
   {
@@ -3146,6 +3166,61 @@
  ],
  "news": [
   {
+   "id": "d64ce10fd41e",
+   "title": "The hottest AI wearables and gadgets you should know about",
+   "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "date": "2026-10-25T14:10:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "7cb2a2330962",
+   "title": "[WOWTALE Global Weekly #1] AI Megarounds Sweep Every Sector as Flapping Airplanes Raises $1B With No Product Yet",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dU5kVEhQUTZrWVVnTjhiYzQ3TkNKYXlfcVBuOHpYOFdXRnROWVpGVGNGajJaeU9HWDhfdm5OaXBtUjNjZXBkNGFVLTFEUlQ4dmRZ?oc=5",
+   "date": "2026-10-25T04:07:49+00:00",
+   "source": "Wowtale",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "6f57639a8dc7",
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "date": "2026-10-24T19:00:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "3aac48d42c94",
+   "title": "Block’s new voice model sounds eerily human",
+   "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "date": "2026-10-24T16:00:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "584b860f242f",
+   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+   "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "date": "2026-10-24T15:00:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
    "id": "b3bf1c03dfe0",
    "title": "Here are the top AI agents that can live in your text messages",
    "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -3312,6 +3387,17 @@
    ]
   },
   {
+   "id": "2e179f6ae40e",
+   "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1k1Z21BZzNyMFQxOWtDMDVsbXhHVE5qbmFBeXMyU3NWTFJDMlVBakVicDY5RjdsUVhhcEdrdDIyZmNfUVhUNnVxclJhZlRkd1BPbTRacFNuVTNUNHIwSERiY05qY2ZMZkdNLWYyZXJlNUVpaE4wU240am96RGRianlfN2VxR3BBMVRPWEw1SDB2V01hUHN3Zw?oc=5",
+   "date": "2026-10-23T16:26:29+00:00",
+   "source": "Yahoo Finance",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
    "id": "22735bb77991",
    "title": "What some of Anthropic’s backers are worth before its IPO",
    "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
@@ -3375,6 +3461,18 @@
    "is_round": false,
    "sectors": [
     "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "1a689ae99996",
+   "title": "Pathos AI Secures $237 Million in Series E Financing to Scale Agentic AI Drug Development Platform and Advance Oncology Pipeline",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQb1pLYVREQ1p5SHMzVV92R0ZGWXFZZGxvWEoyb2tXaTlYMmpodUZVSDhOQVdGRjA4S2FCX1VSaUFjVWpjUzZVTTNpUVlqdVAyN2xFUUE3UDVfOXNLQ1pVT0hkZjdKcUt2WWtZcFU5anZGSjQyVi1FTHBkNHRoWC1EOXZMOGNJSnBKQ25WYkxZQk1zQ2p6OGhoU3lINngzOXE1QmJSM1BZaGUxWlpmMGZqVmdmUFd6amlYX3dENXJBSDI1NjFjTE90R2RwNGZsZ2FQdnZRWW9KMmpJNEpEY0puMjczX1NYYjYyUDZ4d2FVNEVjNWwtUVZWM052VUlqQXVNbzNsdnpySnRmUzc5aGE2bnd5Zjl1dw?oc=5",
+   "date": "2026-10-23T13:00:00+00:00",
+   "source": "Business Wire",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness",
+    "Future of Work"
    ]
   },
   {
@@ -4074,6 +4172,17 @@
    ]
   },
   {
+   "id": "b00fdaaa4d42",
+   "title": "AI data network Dataline raises $10.6 million seed, plans public token sale: The Block",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPV2lUVV9yeTYtWnd1MDMxazVHQ1JWSHZTODZvNWwzaGVDdVczUUFRR1JHSUwwdzFJWnoxMGlVcVpCT0Y1WGlTOTFkNkRhRkRCRnZrMlEyTjIxWWJWMGlicURoUVhxcW4tX0Zmc3pB?oc=5",
+   "date": "2026-10-22T07:46:52+00:00",
+   "source": "CryptoRank",
+   "is_round": true,
+   "sectors": [
+    "Fintech"
+   ]
+  },
+  {
    "id": "e3a2c07d1dcc",
    "title": "Legora Raises $550M Series E at $8.8B Valuation as Legal AI Race Intensifies",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZDFzN2lHblpTWWZRRmpDdUE5QUdxNmhWcHlzam8zbGxBeVJBWFB2SUF5Xy1LMm4wZ2ZLeVlvS29pTi14eUU5S1l4RWxrdGdVVFdrSEpGYllLVWs0eEk0VVBId2hweVpjbU1NSkcyUmJVYTAzdGR1am93N1dpOUpnMmFTSlN4UFgtamMtSU1KWjBwM3J2Z0dkSWdDNm1IVkV6QW5tcWdHSEgzQ0dqMEE?oc=5",
@@ -4711,94 +4820,6 @@
    "is_round": true,
    "sectors": [
     "Consumer"
-   ]
-  },
-  {
-   "id": "607bfc4e89aa",
-   "title": "Hunar.AI Raises $4.3 Million In Series A Led By Blume Ventures",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OMzhVd1gzMzA2ZmV1QnFta2Ryb2RfQTZPclU1RXo5NnMwc3BnblFnSzY4eXhuM2Fuc1R5MGVhRTV3VURLM1BfYjE0VzVocFZFWTVNWEV1RnZpU05OV3U4N0diWmlReFBDcmc?oc=5",
-   "date": "2026-10-21T07:00:38+00:00",
-   "source": "Business Connect Magazine",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "a69ed3f0b685",
-   "title": "Jenz Raises €540K Pre-Seed for AI Agent That Automates Retail Operations",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWRuYkVib25INnY5MmtYX3ZtRm1UdzFrcW5EY2RrU1ByNUtKNVhMUTAtaWFnV3NvT3JPVm9oa3paWldtZWZyd1RwYjJBX3RILWgwTXlXYzdiZm5VWE5SYUt5NTl0cjVmZWJMbHR4amxqOXVJbVlaemQzZGF6dW14XzRtbHpwVGtCaW5XNGV6UHRuUXpXWEN4VDRpcE5Yck0wX2RhN3YzWGlJdw?oc=5",
-   "date": "2026-10-21T06:49:37+00:00",
-   "source": "Konsulteer",
-   "is_round": true,
-   "sectors": [
-    "Consumer"
-   ]
-  },
-  {
-   "id": "256097c89b4b",
-   "title": "Singapore health AI startup Genie Health raises $3m seed",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamV3OWgzOWNBNHMzSjl4QTJ0T1hpSDVWaERXM21DRzQtbS1ra2JsRnEzeDJiakNkQUtQNjF5dzRwellnbVJJM01CN2JoMHU3REE0eGJObFlzXzZHVTBocVRhRW9XOG4waUJnc1ZTTUxHQ2Z4Mm9BZkxGZFp1MTRHM0ZtZ2lHNFl4YzJSU1hnZ1pSQ2tZaUpN?oc=5",
-   "date": "2026-10-21T06:40:00+00:00",
-   "source": "Tech in Asia",
-   "is_round": true,
-   "sectors": [
-    "Health & Wellness"
-   ]
-  },
-  {
-   "id": "fe8f103c5105",
-   "title": "Pigment Raises $250M Series E at $2.3B Valuation to Accelerate Autonomous Planning",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRGhlcW9kVV9PQ3BadldXMm4tRUVScGNXODNZdUVKdHZkMDlSSVl4RU1Eb2xmU2cyRW5BbjRQMFRjckZBdjBteE52X0l5WnB0OE14YS1HWmJHbGVfdTVIT0JUSzhFb3FuUlgwV3FWdFh6d21wbHBTc3d5Q2FwNWtCdmVHa2FYX28xRGduY3JoS0tyT0ticFNia2UwRFNfbWFFN2NISA?oc=5",
-   "date": "2026-10-21T06:23:04+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Robotics & Industrial"
-   ]
-  },
-  {
-   "id": "ef2451ea76b9",
-   "title": "Blackwall Raises $100M Series C at $2.2B Valuation for Web Traffic and AI Agent Management",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdF9xVTRXWFFQY3paUW1hSG8tcUJyYTY4T2VGRFNuTF9EUGtScjR6VHlEYlo1bEQ5NWk5Z2V2ZndJeU4tcjdoZ2tpTFNnQjFLXzBMSXRhM2toUTFxOE13Y2VkdExCTFVCaTJnS2pYVVo2Rjlqclhmc2lPRWdDbTl3NFJrakFDSW1qeXFsdDV3aHlLZlNvanB5RmFzUFRmVzNMdC1TQUJNb2xPOVNYVFBMWGwtcnlQNnhWSk9WbXlBVE8?oc=5",
-   "date": "2026-10-21T05:43:59+00:00",
-   "source": "Konsulteer",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "c3d0d32311ed",
-   "title": "Photon Bridge raises €10m for lasers that link AI chips",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXV1R0MxWDR0eVFDSk9tQjV2TWxnTGsxOFg3MEFxanIwVFBCeTZTZ3NkYlZhZDVWaGVIb3Q4QkpZeV80QVFKOHJsdVlRRmJCVXFMemp2dHhCT1dWX29PS3ZzcmNGblFRcDFTdE5FcmhidWliU3lNdlBiMUJ2Z0haNGFGZ2dTTjExUTV6R2pvVHhQQQ?oc=5",
-   "date": "2026-10-21T04:33:46+00:00",
-   "source": "Dealroom",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "287f881bd762",
-   "title": "Medical Operating Layer Sunlight AI Raises $17.4M Seed",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5T05LVldTUFBqU3FhNDdicTJVbXJCdXZhcWlrTDlwRjRiVWtXZnk3LUxaYUVsSWhnNzNsT3JyVkZacEFVNTJNVElGVG93RlQ5aDFN?oc=5",
-   "date": "2026-10-21T02:59:48+00:00",
-   "source": "Wowtale",
-   "is_round": true,
-   "sectors": [
-    "Health & Wellness"
-   ]
-  },
-  {
-   "id": "a4ca4363a9dd",
-   "title": "AI infrastructure management software startup ASI hits $3B valuation after raising $325M in funding",
-   "link": "https://siliconangle.com/2026/10/20/ai-infrastructure-management-software-startup-asi-hits-3b-valuation-after-raising-325m-in-funding/",
-   "date": "2026-10-21T02:11:00+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
    ]
   }
  ],

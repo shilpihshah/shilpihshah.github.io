@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Shilpi Shah: Notes on AI &amp; Venture</title>
-<meta name="description" content="Notes on AI-native startups and early-stage venture, plus a live dashboard of AI funding rounds.">
+<meta name="description" content="Notes on AI-native startups and early-stage venture, a live dashboard of AI funding rounds, and summaries of key voices in AI.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%231F4E79%22/%3E%3Ctext x=%2232%22 y=%2243%22 font-family=%22Georgia%22 font-size=%2230%22 fill=%22white%22 text-anchor=%22middle%22%3ESS%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -14,6 +14,7 @@
   <nav class="tabs" id="tabs">
     <a href="#blog" data-tab="blog">Blog</a>
     <a href="#dashboard" data-tab="dashboard">Dashboard</a>
+    <a href="#voices" data-tab="voices">Key voices</a>
     <a href="#about" data-tab="about">About</a>
   </nav>
 </div></header>
@@ -80,17 +81,28 @@
       </nav>
     </div>
 
-    <section class="key-voices" id="key-voices" aria-labelledby="key-voices-title">
-      <h3 id="key-voices-title">Key voices <small id="voices-asof"></small></h3>
-      <div class="voice-grid" id="voice-grid"></div>
-    </section>
-
     <div class="grid2">
       <div class="card"><h3>News feed <small>latest 5</small></h3><ul class="news" id="news"></ul></div>
       <div class="card"><h3>Sources <small id="sources-asof"></small></h3><ul class="sources" id="sources"></ul></div>
     </div>
 
     <p class="footnote">Auto-aggregated from public sources; periodic PitchBook snapshots added manually. Round details are parsed from headlines by rules and may be incomplete. Non-USD amounts (≈) are converted approximately. Check figures against the linked source.</p>
+  </div></main>
+</section>
+
+<!-- ============ KEY VOICES ============ -->
+<section class="tab" id="tab-voices">
+  <main><div class="wrap">
+    <div class="dash-head">
+      <div>
+        <div class="eyebrow">Voices in AI</div>
+        <h2>Key voices</h2>
+      </div>
+      <div class="updated" id="voices-asof"></div>
+    </div>
+    <p class="voices-intro">Plain-English summaries of recent posts from people building and funding AI: what they said, and why it matters.</p>
+    <div class="voice-grid" id="voice-grid"></div>
+    <p class="footnote">Compiled from public posts on X. Excerpts are shortened; open the original for the full post.</p>
   </div></main>
 </section>
 

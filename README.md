@@ -1,14 +1,15 @@
 # Shilpi Shah: Notes on AI & Venture
 
-A static personal site with three tabs: **Blog**, a live **VC Pulse** dashboard of AI funding rounds, and **About**.
+A static personal site with four tabs: **Blog**, a live **VC Pulse** dashboard of AI funding rounds, **Key voices**, and **About**.
 There's no build step and no runtime dependencies. The data updater uses only the Python standard library.
 
 ## Files
 | Path | What it is |
 |---|---|
-| `index.html` | Blog index, Dashboard and About (hash tabs: `#blog`, `#dashboard`, `#about`) |
+| `index.html` | Blog, Dashboard, Key voices, and About (hash tabs: `#blog`, `#dashboard`, `#voices`, `#about`) |
 | `posts/*.html` | Blog posts |
-| `assets/style.css`, `assets/dashboard.js` | Styles; tab routing and dashboard rendering (inline SVG charts, no CDN) |
+| `assets/style.css`, `assets/dashboard.js` | Styles; tab routing, dashboard rendering, and Key voices (inline SVG charts, no CDN) |
+| `data/key_voices.json` | Summaries for the Key voices tab. The daily updater does not write this file. |
 | `update_data.py` | Pulls public RSS feeds, extracts AI funding rounds, and writes `data.json` |
 | `data.json` | Generated data: rounds, news, per-source status, `generated_at` |
 | `pitchbook_snapshot.json` | Optional manual PitchBook snapshot. While `deals` is empty, the dashboard shows "Coming soon" |

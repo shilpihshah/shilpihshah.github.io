@@ -19,7 +19,7 @@ a:hover{color:var(--navy)}
 .brand span{font-size:13px;color:#bcd5ee;font-style:italic}
 .brand:hover{color:#fff}
 nav.tabs{display:flex;gap:4px}
-nav.tabs a{color:#dbe8f5;text-decoration:none;padding:8px 14px;border-radius:999px;font-size:15px}
+nav.tabs a{color:#dbe8f5;text-decoration:none;padding:8px 14px;border-radius:999px;font-size:15px;white-space:nowrap}
 nav.tabs a:hover{background:rgba(255,255,255,.1);color:#fff}
 nav.tabs a.active{background:#fff;color:var(--navy)}
 
@@ -117,12 +117,10 @@ td.co a:hover{text-decoration:underline}
 .footnote{font-size:13.5px;color:var(--muted);margin-top:16px;font-style:italic}
 
 /* key voices */
-.key-voices{margin-bottom:18px}
-.key-voices > h3{margin:0 0 12px;font-weight:normal;color:var(--navy);font-size:19px;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.key-voices > h3 small{font-size:13px;color:var(--muted)}
+.voices-intro{margin:-6px 0 18px;max-width:680px;color:var(--muted);font-size:17.5px}
 .voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .voice{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow)}
-.voice h4{margin:0;font-size:18px;font-weight:normal;color:var(--navy);line-height:1.3}
+.voice h3{margin:0;font-size:18px;font-weight:normal;color:var(--navy);line-height:1.3}
 .voice-role{margin:3px 0 0;font-size:13.5px;color:var(--muted);line-height:1.4}
 .voice-item{margin-top:14px;padding-top:14px;border-top:1px solid #edf2f8}
 .voice-date{margin:0 0 6px;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
@@ -153,8 +151,8 @@ footer.site-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wr
   article.post{padding:24px 20px}
   .about{grid-template-columns:1fr;justify-items:start}
   .headshot{width:140px;height:140px}
-  nav.tabs{width:100%;justify-content:space-between;padding-bottom:10px}
-  nav.tabs a{flex:1;text-align:center;padding:7px 8px}
+  nav.tabs{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;padding-bottom:10px}
+  nav.tabs a{text-align:center;padding:7px 6px;font-size:14px}
   .kpi .k-val{font-size:22px}
   .kpi .k-label{font-size:11px;letter-spacing:.05em}
   .kpi{padding:13px 14px}
@@ -163,4 +161,8 @@ footer.site-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wr
   .hide-sm{display:none}
   .pager{justify-content:center}
   .pg-btn{width:44px;height:44px}
+}
+@media (max-width:420px){
+  nav.tabs{grid-template-columns:1fr 1fr;gap:6px}
+  nav.tabs a{font-size:15px;padding:8px 10px}
 }

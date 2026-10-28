@@ -1,13 +1,15 @@
-/* Tabs + VC Pulse dashboard. Reads data.json and data/key_voices.json (no dependencies). */
+/* Tabs, VC Pulse dashboard (data.json), and Key voices (data/key_voices.json). No dependencies. */
 (function () {
   // ---------- tabs ----------
-  const TABS = ["blog", "dashboard", "about"];
+  const TABS = ["blog", "dashboard", "voices", "about"];
+  let voicesLoaded = false;
   function route() {
     const t = (location.hash || "#blog").slice(1);
     const tab = TABS.includes(t) ? t : "blog";
     TABS.forEach(n => document.getElementById("tab-" + n).classList.toggle("show", n === tab));
     document.querySelectorAll("#tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === tab));
     if (tab === "dashboard" && !loaded) load();
+    if (tab === "voices" && !voicesLoaded) loadVoices();
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
@@ -36,7 +38,6 @@
     try { DATA = await getJSON("data.json"); }
     catch (e) { $("updated").textContent = "unavailable (serve this folder over http)"; }
     if (DATA) renderAll();
-    loadVoices();
   }
   // re-pull every 15 minutes while open
   setInterval(() => { if (loaded) { getJSON("data.json").then(d => { DATA = d; renderAll(); }).catch(() => {}); } }, 15 * 60 * 1000);
@@ -200,6 +201,7 @@
   async function loadVoices() {
     const grid = $("voice-grid"), asof = $("voices-asof");
     if (!grid) return;
+    voicesLoaded = true;
     let data;
     try { data = await getJSON("data/key_voices.json"); }
     catch (e) {
@@ -221,7 +223,7 @@
         </div>`;
       }).join("");
       return `<article class="voice">
-        <h4>${esc(v.name)}</h4>
+        <h3>${esc(v.name)}</h3>
         <p class="voice-role">${esc(v.role)}</p>
         ${items}
       </article>`;

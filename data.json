@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:50:02+00:00",
+ "generated_at": "2026-11-08T17:03:15+00:00",
  "window_days": 45,
  "sources": [
   {
@@ -42,26 +42,26 @@
   {
    "source": "Google News: AI Series A",
    "ok": true,
-   "items": 35,
-   "rounds": 27
+   "items": 36,
+   "rounds": 28
   },
   {
    "source": "Google News: AI Series B",
    "ok": true,
    "items": 30,
-   "rounds": 18
+   "rounds": 17
   },
   {
    "source": "Google News: AI seed round",
    "ok": true,
-   "items": 38,
-   "rounds": 28
+   "items": 34,
+   "rounds": 25
   },
   {
    "source": "Google News: AI Series C+",
    "ok": true,
-   "items": 27,
-   "rounds": 26
+   "items": 31,
+   "rounds": 29
   }
  ],
  "rounds": [
@@ -100,7 +100,8 @@
    "title": "Korea's Golden Brain Care raises seed round for AI speech therapy",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmFwaGlaX2dFMHZPcFI0NWdJbHI3NVdWNkE3T1k5SUpGQkx4QTZRQkt5X2lCeGRIOTVLZ1F6WjBmZ21WVmEtSXJldVphMVJVNUg5ZFNlMEJsTWFIRkg3RWNCWnM5RnctQl94N0F6Zk5fUGUwQ0l3SUFURFY3dHJRam5OQ3A5VVdhaF9JNmtXcHRJRGlvQ3FuMmgtZ3BYSlJy?oc=5",
    "source": "Dealroom",
-   "feed": "Google News: AI seed round"
+   "feed": "Google News: AI seed round",
+   "also_reported_by": []
   },
   {
    "id": "journify|12",
@@ -187,7 +188,8 @@
    "title": "Bioliberty raises €2.95 million to bring its AI-powered rehabilitation technology into the home",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYnFaeE1mMk4ybEs1STV6TXdTM2UzaF9LZzdkX1ZhVmx1VUJwckVJMHdYTlhuUGdnbjBUaUVmUkhzbDRGQVFhVndpTG84NkdZMVdkYzdCNVhURmxuQTF1Y3hjaC1OR1ZYUnRaMGk4S0phR0lseE55azFWSnRZSVFYV052Qi1HcVRvR0hxY2I3YzlEUXdCd25qQUYxSmhyejZTeXVPWmlpcmprTnhQM3FHcThabFZob2Z0dk5BMXhuMm9nT0VqOFdwN3A1ZzY?oc=5",
    "source": "EU-Startups",
-   "feed": "Google News: AI Series A"
+   "feed": "Google News: AI Series A",
+   "also_reported_by": []
   },
   {
    "id": "urobotics|0",
@@ -230,7 +232,8 @@
     "Pulse 2.0",
     "HPCwire",
     "citybiz",
-    "Wowtale"
+    "Wowtale",
+    "SiliconANGLE"
    ]
   },
   {
@@ -346,7 +349,9 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUk5EcnQybkNfOFEydE53QlpVbm5KTW5EX0V3dGJxQUZ5bmRFMkFoNDJ6NDkyblBiMV8yWHgwY1Azb0RmMEQ5cDNPbUZjR081c25ObDJVNTVJSGZUY2NPOTBaWDJKalNsdUI3MzB2SkNpd3JRZ2ZxSHNaSWtiXzFtcG85X0JDU1J1RWM4aEgwaFdod2NLRzV3?oc=5",
    "source": "Dealroom",
    "feed": "Google News: AI Series A",
-   "also_reported_by": []
+   "also_reported_by": [
+    "Ventureburn"
+   ]
   },
   {
    "id": "simulacra|0",
@@ -807,7 +812,9 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVFoY3pNN09ibmpBSUM5T1ZEOGh1M2JOaVVjeHQta2lxUGdRdVhZcnhNN2daOE5IOU1HT2tCSkRmajNvclRrMzVvZUxuYkpLekVHa2JpT3dIUHhfbllWRnM1NjUyY3BBS0xlckRRTDV1OWttWl9DcW5zeXRmSGwwdEtDR2JHMzdnNWkyUk5fZ3E5ajVYMWExRnhlSTg5NS00RVYtTy1TdTZMQQ?oc=5",
    "source": "citybiz",
    "feed": "Google News: AI Series C+",
-   "also_reported_by": []
+   "also_reported_by": [
+    "Business Wire"
+   ]
   },
   {
    "id": "creandum|750",
@@ -5406,6 +5413,28 @@
  ],
  "news": [
   {
+   "id": "ce6a6f54e5c8",
+   "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+   "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "date": "2026-11-07T22:07:22+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "62493209f2e6",
+   "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+   "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+   "date": "2026-11-07T21:17:08+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Future of Work"
+   ]
+  },
+  {
    "id": "da8ff5dae3c7",
    "title": "Crusoe sells troubled Wyoming data center project to Google",
    "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
@@ -5617,6 +5646,17 @@
   {
    "id": "72ef40252aba",
    "title": "Midterm elections will put AI and data centers on trial, but Big Tech may end up winning anyway",
+   "link": "https://siliconangle.com/2026/11/06/midterm-elections-will-put-ai-and-data-centers-on-trial-but-big-tech-may-end-up-winning-anyway/",
+   "date": "2026-11-06T15:09:18+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "c027bcc6ee5f",
+   "title": "Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway?",
    "link": "https://siliconangle.com/2026/11/06/midterm-elections-will-put-ai-and-data-centers-on-trial-but-big-tech-may-end-up-winning-anyway/",
    "date": "2026-11-06T15:09:18+00:00",
    "source": "SiliconANGLE AI",
@@ -6180,6 +6220,17 @@
    ]
   },
   {
+   "id": "9f2f12f61e89",
+   "title": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
+   "date": "2026-11-05T12:00:00+00:00",
+   "source": "SiliconANGLE",
+   "is_round": true,
+   "sectors": [
+    "Future of Work"
+   ]
+  },
+  {
    "id": "000e306daac0",
    "title": "AI Tracker: Mayo Clinic Platform rolls out AI tool for clinicians",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0Zsbm5XcmxTU0JuTzczTC1fUF9FVzB3LTJ3X2hLYVRJUFl3ZXB6TEZoMldEOXlkTXBTOVp2amNpLXFVeWlBUUd4X2dZNzlvUnB2LUoybW9LRThOY2pjN18tbnB3S2NieGMwSm9fVVBuZHprWUFrTU50Wk91ZVREV3NDZ1hvQ3RxcW9zeEMxMGs?oc=5",
@@ -6188,6 +6239,18 @@
    "is_round": false,
    "sectors": [
     "Health & Wellness"
+   ]
+  },
+  {
+   "id": "4ccfb0a0b24e",
+   "title": "Sand.ai Raises $200 Million To Challenge Kling and Seedance With Open-Source AI Video",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0lrQUdoR2xDY3I2elpyaEw3cTFYVVBRY2lYSkhhT19HS3VJa0lvOTk5SUZUdWdEVVpTWUl1T0hrNmlOdnluQUpPWDFWUUo0QWNnZ3BubHNMSGYwU0FMWjVVM253YV9pS1d3OF81MGdZczdnS214WjdrTTF5TDk0RUw4MTJ6V01D0gGIAUFVX3lxTE5DSWtBR2hHbENjcjZ6WnJoTDdxMVhVUFFjaVhKSGFPX0dLdUlrSW85OTlJRlR1Z0RVWlNZSXVPSGs2aU52eW5BSk9YMVZRSjRBY2dncG5sc0xIZjBTQUxaNVUzbndhX2lLV3c4XzUwZ1lzN2dLbXhaN2tNMXlMOTRFTDgxMnpXTUM?oc=5",
+   "date": "2026-11-05T11:19:32+00:00",
+   "source": "Ventureburn",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra",
+    "Consumer"
    ]
   },
   {
@@ -7007,61 +7070,6 @@
    "date": "2026-11-03T08:26:41+00:00",
    "source": "AI Insider",
    "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "f7cf8a6ca332",
-   "title": "AI Counterfeit Enforcement Startup Wegofair Raises USD 760K in Pre-SeriesA Funding",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmRXJOVnFDOHkybnZuVHpfcC1jcmJ4Y3BGc0w2azNoR2d6YUlYYU13MUtwODZIbG9VZUVIRkJyMWZhVVRIZG9ZcGhrY2NiT3Q2dXpZ?oc=5",
-   "date": "2026-11-03T08:21:02+00:00",
-   "source": "Wowtale",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "2942eeca0fe6",
-   "title": "3D Motion Data AI Startup MOVIN Raises USD 7.6M Series A Led by IMM Investment",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93eUhKMmxlVUxaTGVWNklxRW1SVndtYmhILWV6MGVudkxFeXJqRHVHdE9CUVBqZUNYRVFsUEdRZkM1RGdQV1FfUVF3RDR5WWU5eWJN?oc=5",
-   "date": "2026-11-03T08:06:31+00:00",
-   "source": "Wowtale",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "a4c9276125d7",
-   "title": "Startup Raises $30 Million to Manage AI Costs",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WaWsxNXFpZ1ZwVXpHN1k1VlEyXzNkRV9CeUlRX0U0dzFXTXRFV2JiRVRaMGZLcVpxTW9TLUx6Z2syQ3pkQnJwMEg4RXpvQjVuWGhQU2Z5WTdlRlhCMVBOODQxcXhsNEREMTZDMVhncENLdk92QmtvSFZ6SGw4QQ?oc=5",
-   "date": "2026-11-03T08:06:19+00:00",
-   "source": "news.lavx.hu",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "dadf73c50161",
-   "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
-   "link": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
-   "date": "2026-11-03T08:01:00+00:00",
-   "source": "TechCrunch Venture",
-   "is_round": false,
-   "sectors": [
-    "Fintech"
-   ]
-  },
-  {
-   "id": "31ccdd72c482",
-   "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-   "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-   "date": "2026-11-03T07:20:00+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
    "sectors": [
     "Horizontal AI"
    ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T17:05:53+00:00",
+ "generated_at": "2026-11-15T17:42:40+00:00",
  "window_days": 45,
  "sources": [
   {
@@ -42,26 +42,26 @@
   {
    "source": "Google News: AI Series A",
    "ok": true,
-   "items": 46,
-   "rounds": 37
+   "items": 38,
+   "rounds": 30
   },
   {
    "source": "Google News: AI Series B",
    "ok": true,
-   "items": 22,
-   "rounds": 11
+   "items": 18,
+   "rounds": 8
   },
   {
    "source": "Google News: AI seed round",
    "ok": true,
-   "items": 38,
-   "rounds": 28
+   "items": 37,
+   "rounds": 30
   },
   {
    "source": "Google News: AI Series C+",
    "ok": true,
-   "items": 45,
-   "rounds": 42
+   "items": 44,
+   "rounds": 41
   }
  ],
  "rounds": [
@@ -86,11 +86,11 @@
   {
    "id": "morsa|2",
    "company": "Morsa",
-   "stage": "Undisclosed",
+   "stage": "Pre-Seed",
    "amount_musd": 1.5,
    "amount_approx": false,
    "currency": "$",
-   "investors": null,
+   "investors": "Jackson Square Ventures",
    "sectors": [
     "Robotics & Industrial"
    ],
@@ -99,7 +99,9 @@
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS29DMnFtcWpEOURZRXBIZ05tOTUxOFNQVGtkZC0xTk13Sk96VjZwMjBjazhVczhmU1BWOGtRSVdmbHhmRjdOb1BnaTBOaWZwUHZQM3l2VmxaWFRLMk5IYlY2MFp2T0tzZC1DRWN3bEk1Rng0bllXTUdPcDVrN3pYZjcwbHNMemVkbVRNbnNpM0toRVZEc00tMjI4akdkTVNWWmNNejFuV2FHbjBnZ19YTjNOTHo3dG9QY3RlS2pzOGs3SDFDLUdWck1UNy1vbFZwUE1uNTllSnXSAdgBQVVfeXFMTktvQzJxbXFqRDlEWUVwSGdObTk1MThTUFRrZGQtMU5Nd0pPelY2cDIwY2s4VXM4ZlNQVjhrUUlXZmx4ZkY3Tm9QZ2kwTmlmcFB2UDN5dlZsWlhUSzJOSGJWNjBadk9Lc2QtQ0Vjd2xJNUZ4NG5ZV01HT3A1azd6WGY3MGxzTHplZG1UTW5zaTNLaEVWRHNNLTIyOGpHZE1TVlpjTXoxbldhR24wZ2dfWE4zTkx6N3RvUGN0ZUtqczhrN0gxQy1HVnJNVDctb2xWcFBNbjU5ZUp1?oc=5",
    "source": "Indian Startup News",
    "feed": "Google News: AI seed round",
-   "also_reported_by": []
+   "also_reported_by": [
+    "The Financial Express"
+   ]
   },
   {
    "id": "thisstartup|1000",
@@ -760,7 +762,8 @@
    "feed": "SiliconANGLE AI",
    "also_reported_by": [
     "Tectonic Defense",
-    "Unite.AI"
+    "Unite.AI",
+    "Hoodline"
    ]
   },
   {
@@ -6398,6 +6401,61 @@
  ],
  "news": [
   {
+   "id": "e3821e6ffc57",
+   "title": "[Korean Startup Weekly News #144] NVIDIA Backs Five Korean AI Companies in a Single Week",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zUWFxVDVJQ2lpWk14UWRPMUxyakhleGF3Q3NJTWV3Y0tTdHNzbFQ1MVBmbHR5VFRORjJVeXVyRmZnVXMwR3ZYVXFUbDMzMzZaaktV?oc=5",
+   "date": "2026-11-15T03:18:22+00:00",
+   "source": "Wowtale",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "31fa6d453980",
+   "title": "Where was Nvidia’s security team?",
+   "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "date": "2026-11-15T00:08:07+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Security"
+   ]
+  },
+  {
+   "id": "0c47fe35078d",
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "date": "2026-11-14T21:41:22+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "0d66ee276b69",
+   "title": "AT&T uses agentic AI to reinvent business processes from the ground up",
+   "link": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
+   "date": "2026-11-14T19:37:13+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Future of Work"
+   ]
+  },
+  {
+   "id": "6f57639a8dc7",
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "date": "2026-11-14T17:30:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
    "id": "03e723ae5308",
    "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
    "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
@@ -6406,6 +6464,17 @@
    "is_round": false,
    "sectors": [
     "Legal & Gov"
+   ]
+  },
+  {
+   "id": "89778abd59b9",
+   "title": "Lumbra Raises $25M Series A for AI Agents in DC",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSmtFblBhSEpMeFMzUTFCQm80OHNrLWxyd0lXZi1tb3Fna1lvMDR1VUo0QUhHTHdQRzNtZTNQQVkzc0tFS2k4dXRMY0VNaUprV2xLRE5HSmoyUDRQS2ZlQ0plUFY2dnJSbktVRVFESVNjV1d0SDh5QnRLWXlWTzdrblF4ZW8xVGZqNU14eW1FZGhPMDc2bFJZZlJlQm5uY19WQ2w0?oc=5",
+   "date": "2026-11-14T14:39:30+00:00",
+   "source": "Hoodline",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
    ]
   },
   {
@@ -6825,6 +6894,17 @@
    "date": "2026-11-12T19:27:45+00:00",
    "source": "TechCrunch AI",
    "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "521413fce9da",
+   "title": "AI startup Morsa.ai raises $1.5 million pre-seed funding led by Jackson Square Ventures",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORXkwZGNFWUxtQkVTQmxnUFlRZXI4UHNDaU9UM2lHYUpTNG5ZMUZkTEdwcHpEVDhwVjE1cG5qRmo4WTlXWnRIWHJVa291M1lmSlA1ck5La1pLTkdDLUJEazlubDdnX2N5WE5hbWt3WUR1anhyWWtaRnFYVGR1TlY0T3hEcUw3Qy1PUnk2OExVRENiS0RpRTdkSHIydWFBNkQ5UFd1NEJXa0JMODN1NnBXQm1aaXhLMXVnMk1XSlktei14VEY2RUtBcVBNX0p0Um1uNVHSAdgBQVVfeXFMTWg3R3lHYnVXNkdSN0hpakxsejNRMTdDc2cwMmd2ZnRUQV84b25GUktqN0ZwWWxWQzBKVmZpY3gzRlRaUTZtMmF4MXM4aWRVMmlyS2xSNHI0Rlc0Q3ByeWZKc1VLamZ4U3NpMlRVS3ZJV3JKcmVLTVlWbWJ6bllxeGltOTZyS3AzR2IwVFA5MmF4ZHZwZHlXUFVQa2NhVHhISGM3QU81MTVIelB5S1N6eVZhRWNtMFYzVmtzSWNJZ0dBRmY4d0ZmOXJyQVg5ejZNVWVMQkgtcUh1?oc=5",
+   "date": "2026-11-12T19:24:44+00:00",
+   "source": "The Financial Express",
+   "is_round": true,
    "sectors": [
     "Horizontal AI"
    ]
@@ -7978,84 +8058,6 @@
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tanotOHRVOVVDZzlhUDFsdk9RaW5uX1c4XzFKU2JyVG5BTG1JanYtT3EtWS05TlMwSzQ2OGVsRHhKdl9qNFdwVTdTbmxmY2NMY0MyWkZsQ0FnVFQwd3JEMVhGY25TLWxvLWVmSGR2c20tWFZ4UU0wTw?oc=5",
    "date": "2026-11-10T18:04:54+00:00",
    "source": "The Next Web",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "50eb27247ac7",
-   "title": "Finite State Raises $27 Million Series C to Expand AI-Powered Device Security",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PNE5wWnZyekFtX19LU2lPdk85Z0xQVmtjMjY3cVM4SzdVQ1N6Sm93RkpucVBSblRKUVFIQkUtd1VxS1RwQVN6Rkc4V24wczBPMFczZ3pKUHA2eTZydTQwODFCc1lXWTg2MGJaRmpQU0daRmlrQTN4Tmd1UUpFdw?oc=5",
-   "date": "2026-11-10T17:52:46+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Security"
-   ]
-  },
-  {
-   "id": "20941ec1deda",
-   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-   "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-   "date": "2026-11-10T17:30:00+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Future of Work"
-   ]
-  },
-  {
-   "id": "e07f51d793ef",
-   "title": "AI training startup Mercor valued at $20 billion in latest funding round",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakRyVVFaNHJEdFVOdTVHYUtNSWN3MEw4SkZXNFFXZFRtM21LLTZmWGtHRU9RcU9QM0dSUENscUhOZWV0WkFBZ1hQQV9vcHBFMzZxRlNrTjZvZFZwZzFZeDR2eGo2U2Q5b3VEcExyek9GY0JxQ0o4SkZYZmRTR21GaDhLTmE2b3J3MzJrRGZORXd0akdkVm41V0gzRGJYVTlvZ1hnZ0VUZ3RSa1RqckxUYUMyQ291NjVVQkdZa3NB?oc=5",
-   "date": "2026-11-10T17:29:28+00:00",
-   "source": "Reuters",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "fb6e59455a60",
-   "title": "Graphon Labs Raises $35M Series A to Scale Persistent AI Memory",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUWJXTWY3UlBDTmZFU19zcFFGM0FPQkdJQ3FxX212N0txVFJFaXhVR3NGOVF0N0pZTzQ4b0RsdmZSMFJCUFFncTBQYU1FYUJLb1BRRl9FYkpHbFJQSjMyaUloNTEyUnNHdTRvMkpLUnhKcGxXeERRNUlRMklSeG5BR1hlY0h5OXUyZG9MTg?oc=5",
-   "date": "2026-11-10T17:14:05+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "e6391312ac4f",
-   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-   "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "date": "2026-11-10T17:04:19+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra",
-    "Security"
-   ]
-  },
-  {
-   "id": "b5214e332b0b",
-   "title": "AI 'amnesia' startup Graphon raises $35M Series A",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNazVzWHd4Ym1vb1ZyY3Y0S0pJbTVlTFBuQzJmeGRsbVBtLWxJTGtMUTEzOVA3aHBQQ3dqdUZHU3d0RFlqek5Mam0tMllPb0pWT1RnYi1pMFJJWjNhcEVGakwyTWI0M19IbDBxdG1vMGVFVFpUSHdncTExeGpjbWJTMmRqWHhFLTA?oc=5",
-   "date": "2026-11-10T16:54:00+00:00",
-   "source": "Dealroom",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "85ef98715de1",
-   "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Expand Enterprise AI Platform",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcTM5WEs0NTFCWjlhS1AzQWgwM0F4ZXBKRU1UQ0NvTWdLeHZSX3h0eUVCZHRyeU42RGw0eHJyelhfQ0hfX0QtUUFaSzRSemtMMTJyMjNvN0plWXk4WUVBZjEzazRHVGVZLVV3cDNxTkUyOW9pOEVEdVpLS0lERFZPVHFseE1FVWE0NlgyOTY1YkNrYTh3S0VXaXJ2ajFyUGFKWVJxNS1VcXc1T3UyOW5GbTR5c0FSeEJOZTRQU05fZkRNRjBaNGdUSHJ3?oc=5",
-   "date": "2026-11-10T16:25:36+00:00",
-   "source": "citybiz",
    "is_round": true,
    "sectors": [
     "Horizontal AI"

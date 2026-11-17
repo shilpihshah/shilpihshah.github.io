@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:01:29+00:00",
+ "generated_at": "2026-11-17T19:50:22+00:00",
  "window_days": 45,
  "sources": [
   {
@@ -12,13 +12,13 @@
    "source": "TechCrunch AI",
    "ok": true,
    "items": 20,
-   "rounds": 1
+   "rounds": 4
   },
   {
    "source": "Crunchbase News",
    "ok": true,
-   "items": 3,
-   "rounds": 0
+   "items": 4,
+   "rounds": 1
   },
   {
    "source": "VentureBeat AI",
@@ -37,35 +37,438 @@
    "source": "SiliconANGLE AI",
    "ok": true,
    "items": 30,
-   "rounds": 4
+   "rounds": 5
   },
   {
    "source": "Google News: AI Series A",
    "ok": true,
-   "items": 49,
-   "rounds": 37
+   "items": 50,
+   "rounds": 42
   },
   {
    "source": "Google News: AI Series B",
    "ok": true,
-   "items": 22,
-   "rounds": 11
+   "items": 28,
+   "rounds": 17
   },
   {
    "source": "Google News: AI seed round",
    "ok": true,
-   "items": 48,
-   "rounds": 41
+   "items": 57,
+   "rounds": 50
   },
   {
    "source": "Google News: AI Series C+",
-   "ok": false,
-   "items": 0,
-   "rounds": 0,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "items": 46,
+   "rounds": 43
   }
  ],
  "rounds": [
+  {
+   "id": "modelml|250",
+   "company": "Model ML",
+   "stage": "Undisclosed",
+   "amount_musd": 250.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Fintech",
+    "Dev Tools & Infra"
+   ],
+   "date": "2026-11-17T19:32:11+00:00",
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "source": "TechCrunch AI",
+   "feed": "TechCrunch AI"
+  },
+  {
+   "id": "pedestal|5",
+   "company": "Pedestal AI",
+   "stage": "Seed",
+   "amount_musd": 4.7,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Robotics & Industrial"
+   ],
+   "date": "2026-11-17T18:04:16+00:00",
+   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+   "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+   "source": "TechCrunch AI",
+   "feed": "TechCrunch AI",
+   "also_reported_by": [
+    "Mezha.net"
+   ]
+  },
+  {
+   "id": "promiserobotics|40",
+   "company": "Promise Robotics",
+   "stage": "Series B",
+   "amount_musd": 40.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Robotics & Industrial"
+   ],
+   "date": "2026-11-17T17:43:04+00:00",
+   "title": "Promise Robotics Raises $40M CAD Series B to Expand AI Homebuilding",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXRlLVh6UjlUNEFIVnF3SXhtN3dyWGRPdFhtU3lqUG1qTy15RjJpdzh0MXdMNlBWbndTSFhhNklncFJkbWlKZjdjZXZKVjZrSXd3ZndOT1BNM0llSVZVaWRjNFptckJ1UUEyQk40ODA0ak9wbEx5MFgyNWlzN1lNcTdRcTNveGZnS09EMFQ3M0pYUQ?oc=5",
+   "source": "Unite.AI",
+   "feed": "Google News: AI Series B",
+   "also_reported_by": [
+    "BetaKit"
+   ]
+  },
+  {
+   "id": "lancedb|58",
+   "company": "LanceDB",
+   "stage": "Series B",
+   "amount_musd": 57.5,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Dev Tools & Infra"
+   ],
+   "date": "2026-11-17T16:30:34+00:00",
+   "title": "LanceDB raises $57.5M to accelerate AI model training with multimodal data platform",
+   "link": "https://siliconangle.com/2026/11/17/lancedb-raises-57-5m-to-accelerate-ai-model-training-with-multimodal-data-platform/",
+   "source": "SiliconANGLE AI",
+   "feed": "SiliconANGLE AI"
+  },
+  {
+   "id": "odaia|15",
+   "company": "ODAIA",
+   "stage": "Series C",
+   "amount_musd": 15.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Health & Wellness"
+   ],
+   "date": "2026-11-17T15:10:17+00:00",
+   "title": "ODAIA Raises $15 Million Series C Led by Monograph Capital to Expand AI Platform for Pharmaceutical Companies",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQemlWMjBMSjl3Rnd2YXRlZHRjSDNPVVJBR3g4U3FoXzJ2Uml4SEZFdUFsbUxEcVVEZ05EVFdTNk9Fdzh6MUJJcDFPRV9acDcyOEVUUlFWUkFPV0xYWVg4TzkxUWwyS2YyMFVXZlVjVE1IbEFLb2lFd1VyQnhpLV9YSGk2MlUxdGtzMFZTbzBLdmszVldmUktWWjdSRmdCWkczenFOaFljMVVSM2dLcVdFUVF0c2FOOUJ5MkJpbThYZVBVZ3dFRE5HZTVteEtyUHNZcHkxemZDVTh5QzgwYktTeQ?oc=5",
+   "source": "citybiz",
+   "feed": "Google News: AI Series C+"
+  },
+  {
+   "id": "voyagelabs|12",
+   "company": "Voyage Labs",
+   "stage": "Undisclosed",
+   "amount_musd": 12.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Consumer"
+   ],
+   "date": "2026-11-17T15:00:00+00:00",
+   "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+   "link": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+   "source": "TechCrunch AI",
+   "feed": "TechCrunch AI"
+  },
+  {
+   "id": "isomorphiclabs|5000",
+   "company": "Isomorphic Labs",
+   "stage": "Series C",
+   "amount_musd": 5000.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Health & Wellness"
+   ],
+   "date": "2026-11-17T14:50:58+00:00",
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "source": "TechCrunch AI",
+   "feed": "TechCrunch AI",
+   "also_reported_by": [
+    "Unite.AI",
+    "Reuters",
+    "Quartz",
+    "marketscreener.com",
+    "Crypto Briefing",
+    "SRN News",
+    "BusinessLine",
+    "www.tokenpost.com"
+   ]
+  },
+  {
+   "id": "sciencecorporation|400",
+   "company": "Science Corporation",
+   "stage": "Series D",
+   "amount_musd": 400.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Horizontal AI"
+   ],
+   "date": "2026-11-17T14:43:02+00:00",
+   "title": "Science Corporation Raises $400M Series D to Expand PRIMA Access",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWo1SDJaMGJTM0VDYkpEWHRLclc1VERBUndBN1JEeFdKN1B5MUdKbmxic0JYVllSZkttOGphTmJOZ081ZFhBdjhyV2ZhOW5pVW1CMkp1U2VXWVpsUkk1SzYwZDJKT3FyS3R2NXB3YlRKanB3d1VBWldCMzNhQ3ZBZzhDN05pMVlsckVXb3R3?oc=5",
+   "source": "Unite.AI",
+   "feed": "Google News: AI Series C+"
+  },
+  {
+   "id": "genesis|500",
+   "company": "Genesis AI",
+   "stage": "Series A",
+   "amount_musd": 500.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": "Nvidia",
+   "sectors": [
+    "Robotics & Industrial"
+   ],
+   "date": "2026-11-17T14:00:18+00:00",
+   "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+   "link": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "source": "Crunchbase News",
+   "feed": "Crunchbase News",
+   "also_reported_by": [
+    "Unite.AI",
+    "Sifted",
+    "AI Insider"
+   ]
+  },
+  {
+   "id": "arva|20",
+   "company": "Arva AI",
+   "stage": "Series A",
+   "amount_musd": 20.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Fintech",
+    "Security"
+   ],
+   "date": "2026-11-17T13:51:03+00:00",
+   "title": "Arva AI Raises $20M Series A to Expand Bank Compliance AI and Sales",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdzZQV3NFODcwdkRmN0ZiNXRUY2lxOWlUY2dWSGpseEcxTDl0dHNXc2F3b19kRjYxUnZiMFV2REdYeHhwaThjSVV1VU1iX3ZVN01xWFdKWnpzQUJsSXRkTHVYUkNvYUN0N3BLV0tpVGJiN2ZPOW1Tb3REeDJINnQyaFhPVGlIMzcxbU9hODYxRGFrZw?oc=5",
+   "source": "Unite.AI",
+   "feed": "Google News: AI Series A"
+  },
+  {
+   "id": "karta|0",
+   "company": "Karta AI",
+   "stage": "Seed",
+   "amount_musd": null,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Horizontal AI"
+   ],
+   "date": "2026-11-17T12:42:24+00:00",
+   "title": "Karta AI Raises Rs 28.52 Cr In Seed Round Led By Peer Capital & Cedar Hill Capital",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdTVyc25aNmxSc0VlaDFuazRuUExiempwZ2MyLWJ6UG9sdnF3cnlqWThwNHVxSzBjSHRNSzNEQWlJMTN5aDlaUzZNLWtrU3hIbVVlT3VtZmJ6aGJsYnR3QmFVZ080Ylk5YnRhUU5zcERCUXV3Uko2dE9CQmJXRnN6YVpOMUJNMDdSaWxlU0dEWG5HVDFzaFpvVWJCTlJrcFFGVjhFRW5mMHdYUXJrY1ZsTE01RXJzbENPVTZKLW13?oc=5",
+   "source": "BW Disrupt",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "remanence|30",
+   "company": "Remanence",
+   "stage": "Undisclosed",
+   "amount_musd": 30.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Dev Tools & Infra"
+   ],
+   "date": "2026-11-17T11:57:43+00:00",
+   "title": "Remanence Raises $30 Million To Help Companies Train and Own Their AI Models",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbDhVcXpNUHBJSl9zMFctZlhmQjB2RU9UQmNNY2ZLWUVVejA1T21KVVR3cmFfNVB6ODkyNDlEWXcxSWdfb0VjaVhTMjk3Y3hOR0VLUXJFb3RraS12eGhFUzJVdjMyMzFTWVFWZGxDWjUwbkNXM05Tdk80RTJ3TW84b3h4VVp0am90NHfSAYoBQVVfeXFMT2w4VXF6TVBwSUpfczBXLWZYZkIwdkVPVEJjTWNmS1lFVXowNU9tSlVUd3JhXzVQejg5MjQ5RFl3MUlnX29FY2lYUzI5N2N4TkdFS1FyRW90a2ktdnhoRVMyVXYzMjMxU1lRVmRsQ1o1MG5DVzNOU3ZPNEUyd01vOG94eFVadGpvdDR3?oc=5",
+   "source": "Ventureburn",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "medintech|0",
+   "company": "MedInTech",
+   "stage": "Series C",
+   "amount_musd": null,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Health & Wellness",
+    "Robotics & Industrial"
+   ],
+   "date": "2026-11-17T11:23:30+00:00",
+   "title": "Medical Robotics Startup MedInTech Raises USD 25.7M Series C to Expand AI Robotic Endoscopes Into Surgical Robots",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwbG5reE1zTzZwUEVpdFZmakdCOWJEMU5Gc2VCRk1UUE1qQ01rQ2x3V2Z3VGYtOUVnRzV4bzRqcy1DeHh6cEJaaF9zaThOQXFjRVJJ?oc=5",
+   "source": "Wowtale",
+   "feed": "Google News: AI Series A",
+   "also_reported_by": []
+  },
+  {
+   "id": "fairly|22",
+   "company": "Fairly",
+   "stage": "Undisclosed",
+   "amount_musd": 22.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Horizontal AI"
+   ],
+   "date": "2026-11-17T11:00:00+00:00",
+   "title": "Portland startup Fairly raises $22M to pair local caretakers with AI for vacation rentals",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE16dXh6T1Rzd25uTVhVRzg0cGpGeGNNenp1QU02aG55LWZCemM5YndmdUJNVUxIRnpqd012aENlSVhzVDlidDZfU1Z3?oc=5",
+   "source": "GeekWire",
+   "feed": "Google News: AI Series A"
+  },
+  {
+   "id": "profitablefrenchinsurtechprevisia|4",
+   "company": "Profitable French InsurTech Previsia",
+   "stage": "Seed",
+   "amount_musd": 4.1,
+   "amount_approx": true,
+   "currency": "€",
+   "investors": null,
+   "sectors": [
+    "Fintech"
+   ],
+   "date": "2026-11-17T07:47:03+00:00",
+   "title": "Profitable French InsurTech Previsia raises €3.8 million in Seed funding for its AI risk-prevention platform",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSW9WMGtyTEtZQVR4V3pMamF4MGFtZG56SnV5RWFFNDBYUFZSVk0xM2RpTFlCQ3lNTEdsT3hWVmc1UHlxalpTQ1lmUlV5bzVVa29VNG1Kd2VaQkc3MG5mZ3J5a09jTkFxcDRYTVBMVzBxaXBqdlpCTmhCS2dhUlU5R3FtQjVlUno2cUVxbE1DYUVRWGdOSVRMVUh4eUdibk1yeThwZ21RcDdFVHh4cDMzTFlmNlpOVUdwak9BS1hxUU1EOUZXUU9zQjN0b0Rka3hSS052LVdkWUZfZzRZM2c?oc=5",
+   "source": "EU-Startups",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "lemonpeel|1",
+   "company": "Lemonpeel",
+   "stage": "Pre-Seed",
+   "amount_musd": 1.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": "Shastra VC",
+   "sectors": [
+    "Consumer"
+   ],
+   "date": "2026-11-17T06:39:00+00:00",
+   "title": "Indian AI video startup Lemonpeel raises $1m pre-seed round",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM1laRWlNNFptT245QzViU2tvaXhwSWYtRi0waDdMN2p5WmNocTNOVUVlYVQ0MnVlUHdIM0VreUlDUmNWUHdWMXk4WklfcVdGWTIzcWdNQUtmcGpuamJMMFlzWDhQdHJPelJJajRFbGdNbTZMaG5XRGFNWkt6X2FMQ0w4Y1d0OUp3Y2R3?oc=5",
+   "source": "Tech in Asia",
+   "feed": "Google News: AI seed round",
+   "also_reported_by": [
+    "Entrackr",
+    "Indian Startup Times"
+   ]
+  },
+  {
+   "id": "countai|0",
+   "company": "CountAI",
+   "stage": "Seed",
+   "amount_musd": null,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Robotics & Industrial"
+   ],
+   "date": "2026-11-17T05:48:30+00:00",
+   "title": "Industrial AI Startup CountAI Bags Rs 10 Cr In Seed Round Led By Equirus InnovateX Fund",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3JVS190VHg5STlaTURsM3FsQ2s5amZoc0dyVVNhMGY3bFpqemlseFVnVUpxeW1tZlNYb2hXRkVtZElkNXlQV01qNy1jZ1JfRy1JTG16TmxiTEJVWEZFRjZBU3NkU2pORGtIUmdReGVMSl9OZTREVmZTYlpUbDVadVBnTDdZWHV6Zl9weDIyTlZKN2hPeWxuVm1aODNfSkFCdWE4YXY2ZVRvYTBUX0hDWlJGUzUtOF9FbjhlTWNxczg2VzJ6ZDZN?oc=5",
+   "source": "BW Disrupt",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "soombit|9",
+   "company": "Soombit.ai",
+   "stage": "Series A",
+   "amount_musd": 9.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Fintech"
+   ],
+   "date": "2026-11-17T05:25:00+00:00",
+   "title": "South Korea's Soombit.ai Raises ₩12 Billion (approximately $9.0 Million) Series A Led by SV Investment, Total Funding Reaches ₩20 Billion",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KWG91R1NkVm5UVkNzNkMteVlnZmR6T3hTQnFFdEhyZzFndktPX0NqQWJ5aU5KNDZ3X3p2RUZZNlA0ZmlvWmkwR3ViTDMzN0pJbW4zTUlSaHBEczJ0cGotUTl5Xy1LUnBudzJfb1dnN0kyZ19XU2c?oc=5",
+   "source": "finance.biggo.com",
+   "feed": "Google News: AI Series A"
+  },
+  {
+   "id": "fermat|8",
+   "company": "Fermat",
+   "stage": "Seed",
+   "amount_musd": 8.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Consumer"
+   ],
+   "date": "2026-11-17T05:00:36+00:00",
+   "title": "AI fashion technology startup Fermat raises $8 million seed as customers include Asos and New Look",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYXBFbXk0bWlYUzN1eEhVeS13Z2tnVDNsbUprUmQ1cWh3MHhIVGJaSDlwRDlVQlJ4bUtaVUlOeE1DQXkwN1RNZHhxd2Q5NXZzckhsYm1icWpVb2N4aEVvT19qYldsb2xrXy1PZXZJQmsxajlfQ0V0RExSUGhEd3R6dnVaZXpOYnhMYmRCUE05Q3VqYnphUTdqSVNWYUR4eFVZMGtydmtsUWFYWmMyUTUxWWVaMGVIcy1qMmJmOWpGdEpzd3V5SmI5RkVfT2E0NDJEQ1dPRGhfaTIxMjhNcGliekpMdw?oc=5",
+   "source": "Retail Technology Innovation Hub",
+   "feed": "Google News: AI Series A",
+   "also_reported_by": []
+  },
+  {
+   "id": "johnaic|2",
+   "company": "JohnAIC",
+   "stage": "Pre-Seed",
+   "amount_musd": 1.9,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Dev Tools & Infra"
+   ],
+   "date": "2026-11-17T04:08:05+00:00",
+   "title": "AI infra startup JohnAIC raises $1.9 Mn in pre-seed round",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYmRIMmFheWdjc3lqM3VFR0llV3hqeEl0Rmo3WlhRZVFQM2JSelNJZ05qRl9ReDNjZnpKU3RGSjdZZ2lLZHAyY0p4eVZGcWNsajg0c3ZsNUh5RTVxRHR5R2Q0d0xwOXozSDRpaXo4eXhpeFU3a1JuTVBaNGtBX0N2UTVqX2tnMDVjdjRoRE15YnNYY1BZZm5vTUF30gGaAUFVX3lxTE9iZEgyYWF5Z2NzeWozdUVHSWVXeGp4SXRGajdaWFFlUVAzYlJ6U0lnTmpGX1F4M2NmekpTdEZKN1lnaUtkcDJjSnh5VkZxY2xqODRzdmw1SHlFNXFEdHlHZDR3THA5ejNINGlpejh5eGl4VTdrUm5NUFo0a0FfQ3ZRNWpfa2cwNWN2NGhETXlic1hjUFlmbm9NQXc?oc=5",
+   "source": "Entrackr",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "noeri|110",
+   "company": "Noeri",
+   "stage": "Undisclosed",
+   "amount_musd": 110.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": "Menlo Ventures",
+   "sectors": [
+    "Horizontal AI"
+   ],
+   "date": "2026-11-16T23:45:51+00:00",
+   "title": "Noeri raises $110M to help companies build living AI systems that self-improve over time",
+   "link": "https://siliconangle.com/2026/11/16/noeri-raises-110m-to-help-companies-build-living-ai-systems-that-self-improve-over-time/",
+   "source": "SiliconANGLE AI",
+   "feed": "SiliconANGLE AI"
+  },
+  {
+   "id": "mavria|130",
+   "company": "Mavria",
+   "stage": "Undisclosed",
+   "amount_musd": 130.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Dev Tools & Infra"
+   ],
+   "date": "2026-11-16T22:10:56+00:00",
+   "title": "Woodlands startup Mavria raises $130M to mass-produce AI data centers",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWGZWWm1tUmttYUpEd0o1UVhoUE1NT1VObnYzdFF5Qi1kSmZVV1I1STZQbFRwLVRVMzg1WHhnVVFwaEh5ei1fYVRzeXVzY21kUWd2RzhSZ3BqVGlXUkZIYXRSSE1vcFBzZEJWMTFDNGs2X0ZUTHVzNS1LQnA0SzYzZGoyYw?oc=5",
+   "source": "InnovationMap",
+   "feed": "Google News: AI seed round"
+  },
   {
    "id": "bevado|10",
    "company": "Bevado",
@@ -81,6 +484,41 @@
    "title": "Bevado Raises $10M Seed Round Led by RET Ventures to Expand AI Property Management Platform",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLUJZOFhXNHowQnkzS2pPT0ZsUFYxbGpWQmEtc2JZN09IODRjUGtVTHBfNkEzYTdoM00yWUV3cGM1Q0JkV1YxenRrTE9BZW5MVkFaUEZWbExhU3hHSEpmZDluWjhMVkZSVzdJNFhENXlHRjFCWmVfX2N1Q1JhdmNBYklXUmpQcDBUeXF6RWVtUWE5NTI5M1BteXEzQ0VCUjVwVWs5ZzYtNWZ1MXktMWlKRVU1MDNNbkx3cThoWlF5WGdUS013QkYyaw?oc=5",
    "source": "citybiz",
+   "feed": "Google News: AI seed round",
+   "also_reported_by": []
+  },
+  {
+   "id": "alecto|19",
+   "company": "Alecto",
+   "stage": "Undisclosed",
+   "amount_musd": 19.44,
+   "amount_approx": true,
+   "currency": "€",
+   "investors": null,
+   "sectors": [
+    "Legal & Gov"
+   ],
+   "date": "2026-11-16T16:09:10+00:00",
+   "title": "Alecto lands €18 million to scale its AI-powered law firm beyond property transactions",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMlNzZ0ZwWnJ6dmVITGJTeWRDcEdITmdLenV1NFh0X2RJN0JFd2tNMGl0WHBhMjAtWU9hOHJuc0NfQmNXczh1RjY5OTJRYzhxWDZzclJnSEpoOVdQVHRuNHhFQlVIelRTZ09OcnZJQUVoMUZVdTBISURQekhMdUI0YkVVSEZEYWxCb2EyUGF1UnA1NHpucFRIVS1uME9XUUNidGRjdTJLWUlIcTNkRzZZeW53ZHA1em4xaHRtRHJOUlk?oc=5",
+   "source": "EU-Startups",
+   "feed": "Google News: AI seed round"
+  },
+  {
+   "id": "count|6",
+   "company": "Count",
+   "stage": "Seed",
+   "amount_musd": 6.5,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": null,
+   "sectors": [
+    "Fintech"
+   ],
+   "date": "2026-11-16T15:51:00+00:00",
+   "title": "AI-powered accounting fintech Count raises $6.5m in seed funding",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTEczamR5cHEyMVp5bTZZZ05pRHVucEtnSWZ5a19rUlVmVC1TQU5vaXNiTTNuS1pPdzVRcU96dnVsZTRtSlhWU1VKSVJuZDM0ZE9CNWVhdmVxV1Fub2RIcHZ2M00wMWlyQi1FUjUxNkNFYTBHQUhFVkhldi0waVJGakZ0NExrMktVdDUwQmtxVGcxc1ZENkoxTms1SkxOZW1lMVJwemViOHE?oc=5",
+   "source": "Finextra Research",
    "feed": "Google News: AI seed round"
   },
   {
@@ -98,7 +536,10 @@
    "title": "Remedy Robotics Raises $62M Series B to Advance AI Cardiovascular Care",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX2hIUnNLVk9hd0ZmazhpVzZLMXFma21SYWNnMEE5aENwS0RYWS1Nb2dKQUF2eXZKZVA2UTBTUFFDV1hmbEZrUmgwN05MMXhscGtFQV9fZmFRMHRwbXRNdDk5WTdfOU8zR1M1TXE5VTBWX1RaS2ZrS1hFQVhXWHlfYk0xWno5dmZHbTY3NHBRc2I4b0JhQ2c?oc=5",
    "source": "Unite.AI",
-   "feed": "Google News: AI Series B"
+   "feed": "Google News: AI Series B",
+   "also_reported_by": [
+    "AI Insider"
+   ]
   },
   {
    "id": "corma|125",
@@ -117,13 +558,17 @@
    "source": "WSJ",
    "feed": "Google News: AI Series A",
    "also_reported_by": [
-    "Unite.AI"
+    "Unite.AI",
+    "Wowtale",
+    "Israel Defense",
+    "Ventureburn",
+    "MLQ.ai"
    ]
   },
   {
    "id": "numa|45",
    "company": "Numa",
-   "stage": "Undisclosed",
+   "stage": "Series C",
    "amount_musd": 45.0,
    "amount_approx": false,
    "currency": "$",
@@ -136,7 +581,13 @@
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVlJ3NXVBM3dkMnZYQjVpbU4zMGtlMjVzZmdmcmpLYVVwRWRtYUNxQ1JHaUhxeS1uSXJUZks2Y0xFSDMxM2dORUlzcDNTMWY4SHdsNlZMeU5uT3AtVHZnNl9OT3JGX0ZxSU9feHhIQmlWbEI3T01WQURzRi1tdWpjbmdESTl4V3hsb3hPVg?oc=5",
    "source": "Fortune",
    "feed": "Google News: AI Series A",
-   "also_reported_by": []
+   "also_reported_by": [
+    "MLQ.ai",
+    "Dealroom",
+    "Unite.AI",
+    "Securities.io",
+    "Pulse 2.0"
+   ]
   },
   {
    "id": "knithealth|35",
@@ -173,7 +624,8 @@
    "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
    "source": "TechCrunch",
-   "feed": "Google News: AI Series A"
+   "feed": "Google News: AI Series A",
+   "also_reported_by": []
   },
   {
    "id": "dreamteam|53",
@@ -190,7 +642,8 @@
    "title": "Former Freshworks executives’ AI startup Dreamteam raises $53 million from Accel, Premji Invest,...",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOMG80RHdRcldkemZ0MU13VUJHNkhNdkVOdndaNllwMUtuTUJya1plR055MS15SlUtcEJZd3J1THpZTFE2LW5BYUU0ZmNfZzIyNzdiSFgxdDlGQWgySnJnMWNHZHV0Nld1VEVXNU0xM0hfXzZpSEgxc1BQUUNkTzk1ZTFJR01LMzdsNVg1NmcyOXJRNVdULTllWjNqdllUOHd3OWZqTWZ1QzZlN1ZNblQ1T3ZmclNONDhoeTVpOVQyeF8tRmlzMEppRkRUS3p2a1VvOVd3MUdRQ2hDYUh2akt6UlNXTWdjc1NWblR0ZXlhaDkwSWFndGVIRlRTVktKT2VI0gGGAkFVX3lxTE9LTFVzbHQ3QWNZNTBXWXJoODV4c3N3QnFWMTJJaktSSkFzM05qN205TU9zbmQ1RFpqQ2NCSUEzb1JZdTZxM0tKRFZ2d2R0Vm54RXBFS2tEejQ1MmtwdXpRLU1iLTUzUW1DVjVSU1FMemtkTU9ucnhYSlNrTktEOHBZTEU5UHRjUzhhRWxlZmpQZGpZTHkyeENhTVpSUWNXTDQ1SHQwZlZlcDloZ0s3RVZ5SkwwbFdybXNHX0ktZ0R0SW5uRTc1ZlpmbldmX1p6QVdmSTduWjkxVEYzdlRCR1BaSnJOM3I2UjRPanhhNVJqeGtKcmwySjY5Y0NSUGZMWUZnNnUwN0E?oc=5",
    "source": "Moneycontrol.com",
-   "feed": "Google News: AI Series A"
+   "feed": "Google News: AI Series A",
+   "also_reported_by": []
   },
   {
    "id": "daisytuner|6",
@@ -207,7 +660,8 @@
    "title": "Germany’s Daisytuner raises €6 million to make AI models run faster across NVIDIA, AMD and emerging chips",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOanlwenBlQk1rX2dHSThDdE00dkxydUhxVEI4MUNiSm1MTUp6TEZPTy0yWE9sZHpibC1uTUh2VjlyR2p5UFhFUk5NUjZ4eDRkM1JxaE9PcFljcmx3djFkVUJLaklQZnpxX2dnMUpXX2lHQTdPa2JZVC1kUWZFZ0pFRjhxWXM2SERib01FT1laMmRNLXlKZ3loeERWRUZ2NzNKUU1MWkdRX2Y1cWZXaUhrWUF3NHYxRGFzRE5TVjRXRWIwdTdMUjlVWFpRVVZkd3VaS3llakZhQQ?oc=5",
    "source": "EU-Startups",
-   "feed": "Google News: AI seed round"
+   "feed": "Google News: AI seed round",
+   "also_reported_by": []
   },
   {
    "id": "arborumlabs|0",
@@ -244,7 +698,8 @@
    "title": "Exclusive: Italian robotics startup Mosaico raises €7.5m to tackle AI’s data problem",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xWDdmeC1RV2tQN3VDU0cxSXJQRG93aXAtQnJjNm9VUDFFbkNrUlhpNmlzR0YyS0xYdmJlc1JfenAwaTJfM2VZZnptZ3lOX2g2c1A4WXp5OXRMVkxFOVNqSkM0bXI2RmxoVjdYOFZITDhuZXZBV3dJZA?oc=5",
    "source": "Sifted",
-   "feed": "Google News: AI seed round"
+   "feed": "Google News: AI seed round",
+   "also_reported_by": []
   },
   {
    "id": "morgan|4",
@@ -261,7 +716,8 @@
    "title": "Morgan AI raises $3.65m in Blackbird-led seed round to automate insolvency work",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWNBQWt3ZnR2a0FlaG52SUpkLVh3dFFTNlF2V09Lc1ZuMGtfLTV0b3VENlJOS0ZTZmRXOWx3YkFQMEE5ZVQ0NENmczJTOXBRQk9ZcURhMlJuV0lpTDlWLUYtaWtWcEgtcUFGbTFuaG42VG9zNGN5SDFaNUZHSWdQeVBta3htU2ZkY3Z0bXUxc0ZtMlJOVXpiNnB5MENjcW5TM0pNY2RBV0xuSW1mTzhvRlk4aUg4SkJrX01ndXVGSWxPaUFHcTdqekg5MNIB1wFBVV95cUxPdHJMNVRvY2FPME83YklydjJjcXYxVjROMEppaE1EMVJmNFhSaWs5a0hScWJidERMRzh0VFhuTFRTT200UmpEelNZeWhGZ2IzaHJhekZMc2o0OXJaQnRFVzEwMXg1TF9qSDNjN3dSNlBHa3Y2bGlYMUpfUTVJejdPUGdxaWtTZDhVUkYzSkNDVG5nQzhiYUtlTWt6NlpRZGhlV1FZU1c5Zmp6S0xsaXR1a0o5NGY2d3djQTl2UGlXbjgxRmNlN1RHcUItcDNVakhtYTJtNXhRcw?oc=5",
    "source": "Business News Australia",
-   "feed": "Google News: AI seed round"
+   "feed": "Google News: AI seed round",
+   "also_reported_by": []
   },
   {
    "id": "bharatsemi|24",
@@ -286,7 +742,8 @@
     "Indian Startup Times",
     "MLQ.ai",
     "The Economic Times",
-    "TechTimes Vietnam"
+    "TechTimes Vietnam",
+    "Dealroom"
    ]
   },
   {
@@ -710,6 +1167,23 @@
    ]
   },
   {
+   "id": "tano|4",
+   "company": "Tano",
+   "stage": "Undisclosed",
+   "amount_musd": 4.0,
+   "amount_approx": false,
+   "currency": "$",
+   "investors": "Cherry Ventures",
+   "sectors": [
+    "Horizontal AI"
+   ],
+   "date": "2026-11-11T14:08:48+00:00",
+   "title": "Tano raises $4M from Cherry Ventures as AI agents start negotiating influencer deals",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wdWFvNldVaXd2WkJlbXBXdy1pckJLcWw3cEZhcTNtaVpuVktObk42LUVvYW1ZUDh5VnpBRTdCMUU5RTV3dWZIc2hldVBfOWJPRTNObFBteTBGay1pSng4aFFsSDZQT240RUxLVnVsUDlKb2VtUWtNSw?oc=5",
+   "source": "Tech Funding News",
+   "feed": "Google News: AI seed round"
+  },
+  {
    "id": "torus|500",
    "company": "Torus",
    "stage": "Series C",
@@ -860,7 +1334,9 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVlRFaTZjS2F1Q3UzRGlua2pyN1lwM0hIcnpWRXBFeWNuZ3JDVjB4OFZibUlsNGhrZFBWU2JOOXJNVWRtN1RNQnItWm5IZHpLMVk1blNwVVVsVzFWT05NTmVzTE0tUHdDS09lbEk5aGU1Zy1IN3ZQLVVCNjhIZVNyaWVkOS1DaXlYSE9wbXdtUQ?oc=5",
    "source": "Unite.AI",
    "feed": "Google News: AI Series B",
-   "also_reported_by": []
+   "also_reported_by": [
+    "AI Insider"
+   ]
   },
   {
    "id": "finitestate|27",
@@ -1009,7 +1485,9 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVEJRb3BfQ0U0UllJOVRabWU0bjZjRi1xN0E3bnV1YWhZOVVSNlVmOWU0bU5oX0ZwY1NCYnkwMm1HakpWVlRPR21qb0JVUW1MMFhGNzZzZ08zU1dVVjVqeVRmVUdISjAzM1kwQnpWY2wwcFp2akpHdDU2aFAwd0laMm92ck1zN2RndWFtalpMWms?oc=5",
    "source": "Unite.AI",
    "feed": "Google News: AI seed round",
-   "also_reported_by": []
+   "also_reported_by": [
+    "Dealroom"
+   ]
   },
   {
    "id": "bluej|0",
@@ -1034,7 +1512,7 @@
   {
    "id": "sparxity|86",
    "company": "Sparxity",
-   "stage": "Undisclosed",
+   "stage": "Series A",
    "amount_musd": 86.4,
    "amount_approx": true,
    "currency": "€",
@@ -1047,7 +1525,9 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNemlqLWsxbFNBNUxSNVZabWxsNTN2QzJ5RmY4WG9vbjJJVTdZLUxyTzRmd2RBZ1lsNC05OW5kMUhDb2gyWEtHTmNYX2ZvdkQ3VzcxZ2VHZU1QZmVMVkgyZVBlamNfdkNvR2lOTGJlbG01b2dmT2cxV2pQM081UUVfYS0wVGYwVkRXQzUyVzV6Z1ZhX3U4VXFfcXYzTXA1c0RqQ0d1cGlxdTlxSTRUR1E?oc=5",
    "source": "EU-Startups",
    "feed": "Google News: AI Series A",
-   "also_reported_by": []
+   "also_reported_by": [
+    "AI Insider"
+   ]
   },
   {
    "id": "nominal|240",
@@ -6532,66 +7012,711 @@
    "source": "Hoodline",
    "feed": "Google News: AI Series A",
    "also_reported_by": []
-  },
-  {
-   "id": "palebluedot|200",
-   "company": "PaleBlueDot AI",
-   "stage": "Series C",
-   "amount_musd": 200.0,
-   "amount_approx": false,
-   "currency": "$",
-   "investors": null,
-   "sectors": [
-    "Horizontal AI"
-   ],
-   "date": "2026-10-03T18:56:56+00:00",
-   "title": "PaleBlueDot AI Raises $200 Million Series C At $3.2 Billion Valuation",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPemVUajJBYk5WLVlMdUk4dWhYQnRfV1pPTGhuS1huTGRGRmp3MmRaSHNHRkREV09pd1V5MjFka1ppUHpoUlM1bUtIZXY1akNJdnFSWHZHQUhwLXZwa3hJWkFlQVh6TFRkT0FLYlpGdGkwWjNiYm5wTnJVa2R4UXk3T0ViZDIwb2N3c09jT3JmcEbSAZYBQVVfeXFMUGkzYjBvY3hWczlMaGlaekZYZ2VwNTh5ZDBGbTdOSURIQU9DdGRudlZYN3FQSTVKNXp1REI1NGNRTEl1UV91NC1Ha29sYzZlQWkydVhnNkpyR1BqMnNRcGFsalRqMW9FNEZBdWtobVM0VTVqRGZlN0x0UWJUemY5eVFPOG9uNkltUEZ5d0YtR214SlhDVGNB?oc=5",
-   "source": "Pulse 2.0",
-   "feed": "Google News: AI Series C+",
-   "also_reported_by": [
-    "Hoodline"
-   ]
-  },
-  {
-   "id": "sima|150",
-   "company": "SiMa.ai",
-   "stage": "Series C",
-   "amount_musd": 150.0,
-   "amount_approx": false,
-   "currency": "$",
-   "investors": null,
-   "sectors": [
-    "Horizontal AI"
-   ],
-   "date": "2026-10-03T07:00:00+00:00",
-   "title": "SiMa.ai Raises $150M, Hits $1.45B Valuation [2026]",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xXzg0QlpQSHZYYlpVclpJOUZWUUJuRUpyYU9JbFpmaUtPMmdDTXc5QlJCa2lZbEUwOVVsUUx1ckZ3dXdQUGpfdWl3eFd6b1hvY3ZNQzQ5ZjY4U1UzUHJGT0pxbEhPeEE1ZkZCMHpVYTF6azctZUhjaGRQRVNNQQ?oc=5",
-   "source": "https://tech-insider.org/",
-   "feed": "Google News: AI Series C+",
-   "also_reported_by": [
-    "Evertiq"
-   ]
-  },
-  {
-   "id": "jazz|61",
-   "company": "Jazz",
-   "stage": "Undisclosed",
-   "amount_musd": 61.0,
-   "amount_approx": false,
-   "currency": "$",
-   "investors": null,
-   "sectors": [
-    "Security"
-   ],
-   "date": "2026-10-03T03:30:00+00:00",
-   "title": "Cybersecurity startup Jazz raises $61M to reinvent data loss prevention with AI",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UWUFab29JTE0xZTRta2lSQVM4M202dmE5Njlud1YxM1VRWmYySXdrb1hhSTdYNVRNMF9kelRUMGFobVNGckt2cjA2SFR2MEpNVjdrOVZtX2UxeU1HcG5QeHB3?oc=5",
-   "source": "Ynetnews",
-   "feed": "Google News: AI Series A"
   }
  ],
  "news": [
+  {
+   "id": "22bab3b13620",
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "date": "2026-11-17T19:32:11+00:00",
+   "source": "TechCrunch AI",
+   "is_round": true,
+   "sectors": [
+    "Fintech",
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "163899a25bf0",
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "date": "2026-11-17T19:02:20+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "0e7f0e2261cf",
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "date": "2026-11-17T18:48:23+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "0dd8b3dbdcc9",
+   "title": "Isomorphic Labs $5B Series C for AI drug design",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JBT01OX05CbmpoVGZDdlJKX28wYUExT1l5dXJtdno2bkVQWUpaSEtLcUVlMW5IR1BfdG1WTDl5T2IyZmd0d0gxdHJNMG91TlhkTjk3WDlIZHg4NmxIWHNRV3lYcnJMUExqcWRvSVpTNXJCa1ZUNk5tU2lwbGJzZmhQb2c?oc=5",
+   "date": "2026-11-17T18:45:10+00:00",
+   "source": "CASRAI",
+   "is_round": false,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "089a4b5b4c84",
+   "title": "Pedestal AI raises $4.7 million in seed funding to automate supply chains",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpadzZ0NW1UYUludE4wZU8zT251NW9RaEt5alpGUnBiekdraGlVRnBKUFRsV0pNbk1XTTFIdFo1SDNXVWZkWW12QVVtNE9IbFJtRWZsMVc0c3djTy1JZEVaSC1ubWdWTXNPd2NvY1hyMlJ6NWdOU3R2YmlOdWZwWTM2RQ?oc=5",
+   "date": "2026-11-17T18:38:48+00:00",
+   "source": "Mezha.net",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "17ae0217f15e",
+   "title": "Dell puts a single gateway between enterprise AI agents and the data they crave",
+   "link": "https://siliconangle.com/2026/11/17/data-intelligence-lifts-enterprise-ai-factory-accuracy-dellatsc26/",
+   "date": "2026-11-17T18:19:45+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra",
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "c31a0c349ee1",
+   "title": "Isomorphic Labs raises $5 billion in Series C to push AI-designed drugs toward clinical trials",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81QjhscWstdm1hVVVwenEwX25UYkhMQUxFSlN3anNHMURBYUlmYng4LUQzUzIzZVQ2N0t1ZGZEQkFVQ1ZRdE5FNU0zWG5BVHEzemVhbEkyclpmNV9rUVB3TXNjdmd3ZEt5UGdjUXFCLXVTUTdOS20yQQ?oc=5",
+   "date": "2026-11-17T18:14:40+00:00",
+   "source": "Crypto Briefing",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "e3942297ab7b",
+   "title": "As decision model use skyrockets, is customization the next frontier?",
+   "link": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+   "date": "2026-11-17T18:10:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "6477858893de",
+   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+   "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+   "date": "2026-11-17T18:04:16+00:00",
+   "source": "TechCrunch AI",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "06c7198772d6",
+   "title": "Promise Robotics Raises $40M CAD Series B to Expand AI Homebuilding",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXRlLVh6UjlUNEFIVnF3SXhtN3dyWGRPdFhtU3lqUG1qTy15RjJpdzh0MXdMNlBWbndTSFhhNklncFJkbWlKZjdjZXZKVjZrSXd3ZndOT1BNM0llSVZVaWRjNFptckJ1UUEyQk40ODA0ak9wbEx5MFgyNWlzN1lNcTdRcTNveGZnS09EMFQ3M0pYUQ?oc=5",
+   "date": "2026-11-17T17:43:04+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "4e863a3edb02",
+   "title": "Physical AI company Promise Robotics announces $40-million Series B round",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTm1BX01aMzR4eV9wYkpCcXd0VGtpX3U4am9xZHItYmptQmM3YXl5OFZ5NjNWQnNZODAwRmFfYkNMRzVBMUZFS0l6SmhkdHFraG1iLVQxbXIyQ2JDSEJsNG9mMC1LbGkzbGJ5R1Ntand0MUlFMnEzV3NaYW93Tlk1anZmVFBIdGN0ZDJLVzNwNDJGZm9PTXN6cA?oc=5",
+   "date": "2026-11-17T17:38:46+00:00",
+   "source": "BetaKit",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "b6f453bd9d72",
+   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+   "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+   "date": "2026-11-17T17:32:25+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "7811a487be73",
+   "title": "Isomorphic Labs raises $5 billion in Series C funding for AI drug discovery",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeTRLRF9oNTR0LWRES1d2MjZiUWJzNjZlOFpuX2cyeDRmSFpNUFBRM2VqblVBUkZHdENKcnZBV2x5bVQtZE5lNUNRYzFSZDVqMzBmOWt3SjRXOHVLRzJfbHRpMXBLSEl1Sm51VFpJRjRnWTVpNGdPM181VTk0NDd3Nk9IalphU0RJTHNLaVZsby1aUU9MYWRrdU9zOUhvMl9tZUI1TzhLVTdDMzJYQ3pPZHA4enMzdVprWDVGTHFqSTdhV05MdEVWSUN1LURVUlZkQ2l0dEhpbUJlM2tDUS1MWklnODbSAesBQVVfeXFMTjJCaEM5dXVPLWNBbTJoRnI4MVA4djZBT1NzcjNvY011UVdVaVBEa1p6WWppTFl5Z202dXU1QkF3VGprMk95cHVxa3hSNzV0cWVKR1FYZk5LMDRmN3Y0WERSMXBRQW1nNnNHRVZhcmZIY1VCRlk1Y0VYQl9Ralpabm16b3pQRlZScGx5WDZaS2JBcmZyLWtrLTZnY0F5T3BxbENmTHpVQmY3cFNWMFBqYW0zOHJXV09Ndlo5V0c2NGVadHVhU1U4QXphVE1lUGtTaGVHOTRXRWF5ZjFyYkQwYm5QR3NteDFDODZ4RQ?oc=5",
+   "date": "2026-11-17T17:26:31+00:00",
+   "source": "BusinessLine",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "303489f84915",
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "date": "2026-11-17T17:20:41+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra",
+    "Consumer"
+   ]
+  },
+  {
+   "id": "cea171126d4d",
+   "title": "AI drug developer Isomorphic raises $5 billion in Series C round",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPamxJLTFxaXJJZm9BU0RWSlFEUE9IWkE1bFNvVkRSYjhVMHNERDhWUWxGbkF3RGtfUUFMQ1ZwaG9QZkdOSk84bGszOWRJdXV3YXhVR1l0aHJ6M2FXUlRFNDJ5bEtkZWthNHdTQ1pPaWJKNGlzdXVhamNxWlNvTElkOURYVGI5VVZhWGpqb1YxZGE0eHVVTnh2MUdBQTdhVUl0VDU3WTB4ZmNMWGxxeHFXZVdzVQ?oc=5",
+   "date": "2026-11-17T17:11:42+00:00",
+   "source": "Reuters",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness",
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "df80f504a09a",
+   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+   "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+   "date": "2026-11-17T16:44:15+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "a59842233daa",
+   "title": "Alphabet's Isomorphic Labs raised $5 billion in Series C funding for AI drug design",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KMF9VZ0RYemFIODVqdXlSUm15YWhzOGdUbEdhZ2lJaE5ZSndGMFpiMnlHcld3eGZUVWVQR2RVZEtPYTRxSWN3b3FxMDFxMlc2Z0FiZGhMeVp1T1ZweGVtTnNvN0M4LTR1bVVsM09lUlpGUEhYVWVEbzJjSQ?oc=5",
+   "date": "2026-11-17T16:34:55+00:00",
+   "source": "Quartz",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "1839e2c7536e",
+   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+   "link": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+   "date": "2026-11-17T16:32:55+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Consumer",
+    "Sales & Marketing"
+   ]
+  },
+  {
+   "id": "c328fb643016",
+   "title": "LanceDB raises $57.5M to accelerate AI model training with multimodal data platform",
+   "link": "https://siliconangle.com/2026/11/17/lancedb-raises-57-5m-to-accelerate-ai-model-training-with-multimodal-data-platform/",
+   "date": "2026-11-17T16:30:34+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "fbeade519beb",
+   "title": "Genesis AI Raises $500M Series A Funding to Develop General-Purpose Robots",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUi15aXlZRmtGN0VuamtqS2l6OEdlXzhURHhFUUlHd0QyWGhteVk4SXFvRVNoeHNmNTlkS1ZRQTRiUm9fc2VmakVNX3M5bkRXdVEwWlRIV3hUUFRmSl9rcUJ0eEFha0U1SFR2SzFvZDdHUGptSkE2ODN0TVVWSURsUDlCa2F1X3VYQ1M2RjlfQWlPUWh1bDUxdmM4UUVpcjh3MzNkaUY4TEhETDg4S0QzRg?oc=5",
+   "date": "2026-11-17T15:41:43+00:00",
+   "source": "AI Insider",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "a52282fe1081",
+   "title": "ODAIA Raises $15 Million Series C Led by Monograph Capital to Expand AI Platform for Pharmaceutical Companies",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQemlWMjBMSjl3Rnd2YXRlZHRjSDNPVVJBR3g4U3FoXzJ2Uml4SEZFdUFsbUxEcVVEZ05EVFdTNk9Fdzh6MUJJcDFPRV9acDcyOEVUUlFWUkFPV0xYWVg4TzkxUWwyS2YyMFVXZlVjVE1IbEFLb2lFd1VyQnhpLV9YSGk2MlUxdGtzMFZTbzBLdmszVldmUktWWjdSRmdCWkczenFOaFljMVVSM2dLcVdFUVF0c2FOOUJ5MkJpbThYZVBVZ3dFRE5HZTVteEtyUHNZcHkxemZDVTh5QzgwYktTeQ?oc=5",
+   "date": "2026-11-17T15:10:17+00:00",
+   "source": "citybiz",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "d7169b96560b",
+   "title": "Lemonpeel Raises $1 Million in Pre-Seed Round Led by Shastra VC to Build AI Video Production Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQa0ZJQzBCODNoNnRQc21xR0VucVR6MUJ1ei1IWnNlN3JRNlZ1cGV5MGdBajlGVUZJOURnOFoxczNwMy1aNzVjNXdyaGRnYWctOWRNZTdUYTBiZDR2SHRqUkpISEpoSVQ1RWd4MHYzaXNKTzkzSzJoM0JXbWhXckVWV2NEemVGa1h1Q3ZvTExWZkhMSl8yNklQSTdob0pPQmQ0QkZtWXcxNUhQeXJJazdHYk9ST3dBM04zZnBibTdCbmp1bWFTcGMyYmpsLVp3eEJUOWVSNUhlOGxvZEh4SHZOcQ?oc=5",
+   "date": "2026-11-17T15:03:15+00:00",
+   "source": "Indian Startup Times",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra",
+    "Consumer"
+   ]
+  },
+  {
+   "id": "5c41af526dc7",
+   "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+   "link": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+   "date": "2026-11-17T15:00:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": true,
+   "sectors": [
+    "Consumer"
+   ]
+  },
+  {
+   "id": "6400a279857f",
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "date": "2026-11-17T14:50:58+00:00",
+   "source": "TechCrunch AI",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "ebb3d8c94548",
+   "title": "Science Corporation Raises $400M Series D to Expand PRIMA Access",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWo1SDJaMGJTM0VDYkpEWHRLclc1VERBUndBN1JEeFdKN1B5MUdKbmxic0JYVllSZkttOGphTmJOZ081ZFhBdjhyV2ZhOW5pVW1CMkp1U2VXWVpsUkk1SzYwZDJKT3FyS3R2NXB3YlRKanB3d1VBWldCMzNhQ3ZBZzhDN05pMVlsckVXb3R3?oc=5",
+   "date": "2026-11-17T14:43:02+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "eb7b06f2e28c",
+   "title": "Isomorphic Labs Raises $5 Billion in Series C for AI Drug Development",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xb2ZQZEdhbkhtRTVuYzFZazJzQ1RYRzQ5T2Fmel9RT1ZpSUJZMDdGdzhfZHdJLXRMdU9sc0JGejZlcl9tZ0VjdWY0dXlWMXp1Z21VTGp6RXg?oc=5",
+   "date": "2026-11-17T14:34:23+00:00",
+   "source": "www.tokenpost.com",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "f0a3d173f61c",
+   "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+   "link": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+   "date": "2026-11-17T14:26:46+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "804eddbca45f",
+   "title": "Genesis AI Raises $500M Series A to Accelerate Robot Deployment",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYmUwTEdLZ1JabHpUMWloRERmS0NlVjBwcWxZM3pzSGNoVjZtUjZXSFYyaDB3bkdBX08yQlo4aDV2ZmpfV0ZtRWNXc3lVcm5UbTJfY3lVQll5a1dwQU5GNlVrNW9Ra21teFViV01tTDdET3VxcDZTN2F5b1VtVGFkWDY1eFBnTVJyd3ByZA?oc=5",
+   "date": "2026-11-17T14:18:02+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "d93f3c7d7f99",
+   "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+   "link": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+   "date": "2026-11-17T14:05:30+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Security"
+   ]
+  },
+  {
+   "id": "5eafc7c6a8c6",
+   "title": "Robotics startup Genesis AI raises $500m backed by Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1c3VtQkRvTHBNQVRCX2k2WVdOWmJHUlJCNGhUdldPMnJTN3RhenFoMWV1Z3BESFhYaEhqaXN6NEtQN3lPZ0c5Y1JOelljbVR4ck9aYms3dFpjaFRXMGc?oc=5",
+   "date": "2026-11-17T14:04:07+00:00",
+   "source": "Sifted",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "5db96d590a2f",
+   "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+   "link": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "date": "2026-11-17T14:00:18+00:00",
+   "source": "Crunchbase News",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "4dce93a7cf4d",
+   "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+   "link": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+   "date": "2026-11-17T14:00:00+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Consumer"
+   ]
+  },
+  {
+   "id": "41c1cd58206b",
+   "title": "Exclusive | Genesis AI, a Robotics Startup, Raises $500 Million",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWFFQXhWNzlaWHRMZ2E5dWdTY0pIa2dVci0wa0VETFVvZXRzS2Z3Vm9uenBueTdiNFVpQmxXTHBGUm1IS04tdEJuaTJKY0hoVHhsSWVhOGNFeUcyc09LSlV3aG05bzMycGZDa29JM3hvRFp1bm1UV1ZLblBFdzBMdVdMSzh4Zlk3M1drZm8tNUIyQ00?oc=5",
+   "date": "2026-11-17T14:00:00+00:00",
+   "source": "WSJ",
+   "is_round": false,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "db4c9246ef73",
+   "title": "Demis Hassabis’ AI company raises $5 billion, months after he left as Google DeepMind CEO",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFpzOHFHREVGLWRCYk1xQlppZXlkZTJtQ3dsV3JqNHM3al9SVF82UGtNUk52Y2diUTlXYUt2QWZ1MFRnN3dlbEpLQUdiYWc4aDgtOERaLVJLckgzaUFTOTBtMEo0NUcxckFWSy1yRThTSkx6Z3lfV3dQdFBaU1pBelpncTB1d0nSAYwBQVVfeXFMTUtFN2U2MHg1TlE2aVZSa1pRUTQ1ZUY0blFyV1RKaFJHWWVTQlRTeEh5cG0temdzTmFHR2d4MVZlMXpNQ1l4eHBkRXJwOFd6ZUhQMk9pOUI5cWZFdUE4S3hoSngwNXZxTndONlM1cUgycFZZOUttZzdVc056eXF3Q18xbjBOLTZQX2w4Qy0?oc=5",
+   "date": "2026-11-17T13:58:07+00:00",
+   "source": "CNBC",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "e8dd5010ee8c",
+   "title": "Arva AI Raises $20M Series A to Expand Bank Compliance AI and Sales",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdzZQV3NFODcwdkRmN0ZiNXRUY2lxOWlUY2dWSGpseEcxTDl0dHNXc2F3b19kRjYxUnZiMFV2REdYeHhwaThjSVV1VU1iX3ZVN01xWFdKWnpzQUJsSXRkTHVYUkNvYUN0N3BLV0tpVGJiN2ZPOW1Tb3REeDJINnQyaFhPVGlIMzcxbU9hODYxRGFrZw?oc=5",
+   "date": "2026-11-17T13:51:03+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Fintech",
+    "Security"
+   ]
+  },
+  {
+   "id": "a4d48df3b737",
+   "title": "Three insights you might have missed from theCUBE’s coverage of Dell’s “AI Leadership Symposium”",
+   "link": "https://siliconangle.com/2026/11/17/three-insights-you-might-have-missed-from-thecubes-coverage-of-dells-ai-leadership-symposium-dellaileadershipsymposium/",
+   "date": "2026-11-17T13:47:02+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "2299f75cdb05",
+   "title": "SuperDial revamps its healthcare voice agent platform to stop AI bots wasting time calling each other",
+   "link": "https://siliconangle.com/2026/11/17/superdial-revamps-its-healthcare-voice-agent-platform-to-stop-ai-bots-wasting-time-calling-each-other/",
+   "date": "2026-11-17T13:00:01+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "1ac37c09fbbb",
+   "title": "Isomorphic Labs Raises $5B Series C to Advance AI Drug Design",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYzk0VG9GMGJOOFF5MWRCX3JObnd5R0FKYTJmWnFHYVd3MHdRTXB1aGN4QVFaNk9rUm1YVEc1QkVtTFJOSzFQblNUNWxaSzY2MHYySllJQ2tSSWQyX2FhUUlBR1hPZ2t0bGxrM3dmNXA3QVhTcEVvOTlHTGczUEZYaXpvQ0FNdlgxOWc?oc=5",
+   "date": "2026-11-17T12:53:15+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "584f4f7828de",
+   "title": "Karta AI Raises Rs 28.52 Cr In Seed Round Led By Peer Capital & Cedar Hill Capital",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdTVyc25aNmxSc0VlaDFuazRuUExiempwZ2MyLWJ6UG9sdnF3cnlqWThwNHVxSzBjSHRNSzNEQWlJMTN5aDlaUzZNLWtrU3hIbVVlT3VtZmJ6aGJsYnR3QmFVZ080Ylk5YnRhUU5zcERCUXV3Uko2dE9CQmJXRnN6YVpOMUJNMDdSaWxlU0dEWG5HVDFzaFpvVWJCTlJrcFFGVjhFRW5mMHdYUXJrY1ZsTE01RXJzbENPVTZKLW13?oc=5",
+   "date": "2026-11-17T12:42:24+00:00",
+   "source": "BW Disrupt",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "a84be156d703",
+   "title": "Restaurant AI startup Marble raises $5.5M seed round",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdTlSUHNiU081M3N6UXcwcDd0SllXRWtOSGsxUE92NEN0cDlCUGp3alBGVUx0ejhXVW9YRTdxRnZSc2RxbWpuMWItVzhhRlliT2UyTTI0c0ZXT3NpUm1qMmlfUmNyTHlIRUw1Z3RlVDR5cEZ1MnV0NmFRZTRYMjFmanEtUEZrY3BacFNLUEdn?oc=5",
+   "date": "2026-11-17T12:08:21+00:00",
+   "source": "Dealroom",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "3169c36a292f",
+   "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+   "link": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+   "date": "2026-11-17T12:00:41+00:00",
+   "source": "Crunchbase News",
+   "is_round": false,
+   "sectors": [
+    "Health & Wellness"
+   ]
+  },
+  {
+   "id": "d058dd9badeb",
+   "title": "Remanence Raises $30 Million To Help Companies Train and Own Their AI Models",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbDhVcXpNUHBJSl9zMFctZlhmQjB2RU9UQmNNY2ZLWUVVejA1T21KVVR3cmFfNVB6ODkyNDlEWXcxSWdfb0VjaVhTMjk3Y3hOR0VLUXJFb3RraS12eGhFUzJVdjMyMzFTWVFWZGxDWjUwbkNXM05Tdk80RTJ3TW84b3h4VVp0am90NHfSAYoBQVVfeXFMT2w4VXF6TVBwSUpfczBXLWZYZkIwdkVPVEJjTWNmS1lFVXowNU9tSlVUd3JhXzVQejg5MjQ5RFl3MUlnX29FY2lYUzI5N2N4TkdFS1FyRW90a2ktdnhoRVMyVXYzMjMxU1lRVmRsQ1o1MG5DVzNOU3ZPNEUyd01vOG94eFVadGpvdDR3?oc=5",
+   "date": "2026-11-17T11:57:43+00:00",
+   "source": "Ventureburn",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "639ee808843f",
+   "title": "Medical Robotics Startup MedInTech Raises USD 25.7M Series C to Expand AI Robotic Endoscopes Into Surgical Robots",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwbG5reE1zTzZwUEVpdFZmakdCOWJEMU5Gc2VCRk1UUE1qQ01rQ2x3V2Z3VGYtOUVnRzV4bzRqcy1DeHh6cEJaaF9zaThOQXFjRVJJ?oc=5",
+   "date": "2026-11-17T11:23:30+00:00",
+   "source": "Wowtale",
+   "is_round": true,
+   "sectors": [
+    "Health & Wellness",
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "def8b85cd12f",
+   "title": "Portland startup Fairly raises $22M to pair local caretakers with AI for vacation rentals",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE16dXh6T1Rzd25uTVhVRzg0cGpGeGNNenp1QU02aG55LWZCemM5YndmdUJNVUxIRnpqd012aENlSVhzVDlidDZfU1Z3?oc=5",
+   "date": "2026-11-17T11:00:00+00:00",
+   "source": "GeekWire",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "f6be45483bd1",
+   "title": "Remedy Robotics Raises $62M in Series B Funding to Advance AI-Enabled Vascular Intervention System",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPREFBUzBrZDduZnQtbDZpZm5aSlFvU1l5RkVUcFNlLXlMYTFfVUJsZG03ZEl2YnJVSHRhSnM1WXIwY3VCUHoyMTI4emxNNldDUk9pVmQ1ejJaeUppT0oxeGRYS2lnS0MwRnhqRUxkSFBnS3dmalZvTlF1N3pVeGNRT3lBRDhOSzA2YURabjhkWHM0T1RFUUFkQU1CX0RlTUF3Tjg5MC1SNzFOLUZFQ2dzbVdJRkI0NFBGTGVvVThsdzRCemJfWjFQNmNMQmpDRURk?oc=5",
+   "date": "2026-11-17T09:36:16+00:00",
+   "source": "AI Insider",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "9f970443407b",
+   "title": "Israeli Cybersecurity AI Startup Corma Raises $125 Million at $1 Billion Valuation",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4a3A4bTFITEJOQ1ZqSGhyRnpKWlY1RUMxZG1UZk9RLVRET1B1Z3ZqcFFpanVMTndSYndiNjlKUXFvY0t4czVOQ3dvV2lXUllJTkVnZGl6YTI?oc=5",
+   "date": "2026-11-17T09:11:18+00:00",
+   "source": "Israel Defense",
+   "is_round": true,
+   "sectors": [
+    "Security"
+   ]
+  },
+  {
+   "id": "d011d1dd7cd7",
+   "title": "SPARETECH Secures $20M Series B to Cut Manufacturers’ Spare Parts Inventory With AI",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYkp5SUZRR3BvY2U2Mzl5c28xMTVpTlhFaFZ0dlpQOWJEZmk4SDF0dDVTbUhoX0RfNTVCcWhZOFNDblhfZklqdGJwV3NRMGwzaXFNbzBnTXNYYXU3VU4tNzNYRVp6eXZKSmxCUnNpdng0cC1Ua3FqYXVCQldGZkxESGJmTTZ4dWFPTmdWdUJuQUY0QkZocUg0NXI2NUl1MFNwUFpKbnJGNjRvbVoyYzdSZ3RuamdubGZGM0dV?oc=5",
+   "date": "2026-11-17T08:55:23+00:00",
+   "source": "AI Insider",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "088847595ccd",
+   "title": "AI video production startup Lemonpeel raises $1 Mn in pre-seed round led by Shastra VC",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ1p2a2drbFFzVVJKam95Z1A1U2hmekV3ODVVemNad2d4MkdheWh0bUtzeU5oVGl3VF9MTW9DRW5wbmVFVWdjU1BXYlhsaU41VXNEcTE0cjFtc3lfclhlZmtVcl9feUZLSmtwR0EwS0Q3R1VmLU9rWGlwTVVYY2JuRkc0S1ptWG1hLVF0N0pWN2QyNWRwUVBna1NiX2pNV3BLbHVydW85Z1U3dDF0aTVzUFdCZG82Ni00Mnh0LTljR0UtZ9IBwgFBVV95cUxQQ1p2a2drbFFzVVJKam95Z1A1U2hmekV3ODVVemNad2d4MkdheWh0bUtzeU5oVGl3VF9MTW9DRW5wbmVFVWdjU1BXYlhsaU41VXNEcTE0cjFtc3lfclhlZmtVcl9feUZLSmtwR0EwS0Q3R1VmLU9rWGlwTVVYY2JuRkc0S1ptWG1hLVF0N0pWN2QyNWRwUVBna1NiX2pNV3BLbHVydW85Z1U3dDF0aTVzUFdCZG82Ni00Mnh0LTljR0UtZw?oc=5",
+   "date": "2026-11-17T08:39:35+00:00",
+   "source": "Entrackr",
+   "is_round": true,
+   "sectors": [
+    "Consumer"
+   ]
+  },
+  {
+   "id": "6448f77830fa",
+   "title": "Corma raises $125 million at a $1 billion valuation for cybersecurity AI models, three months after launch",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZVFqU2NuQ0ZjbHJxVEU1Ni02WDh4UzhBbEMyeUZYVFVXdUttNHZ4NjlhdmdMRENWYWRMYU5US2dqbWlDSDdPT3NRdGpNeVRWMVdXWm5hM2d6ZG1BSkFON2x2bVpVTzZRTWN0aWVrX3F4NzdvYWRSdzg4YzY1a0NzQmFTeERMSC1KTFdhelk1QWdjUHhLUl94QjZVZVNzbFlGeHpRajUzZTczWGFlek1iREQxMmNkYWNGUWZmUlBjeHF0Zw?oc=5",
+   "date": "2026-11-17T08:04:45+00:00",
+   "source": "MLQ.ai",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra",
+    "Security"
+   ]
+  },
+  {
+   "id": "6c26246b1f51",
+   "title": "Finnish startup raises €3.5 million pre-seed to bring AI to data centre construction sites - ArcticStartup",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTNXRQM3I0Y2RkNTZpdXZLa3h3Yy10Y0JRcHFDMmVBVVI2b2tFWkZaSGgxakNlVmExWHFMQUtPWEtVa0pxa3lhTUZBNXVVV3AyNkhBU3VmZV9vS0RySGd1QXJzb9IBY0FVX3lxTFBTNXRQM3I0Y2RkNTZpdXZLa3h3Yy10Y0JRcHFDMmVBVVI2b2tFWkZaSGgxakNlVmExWHFMQUtPWEtVa0pxa3lhTUZBNXVVV3AyNkhBU3VmZV9vS0RySGd1QXJzbw?oc=5",
+   "date": "2026-11-17T07:51:56+00:00",
+   "source": "ArcticStartup",
+   "is_round": false,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "d0256ff3e520",
+   "title": "Profitable French InsurTech Previsia raises €3.8 million in Seed funding for its AI risk-prevention platform",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSW9WMGtyTEtZQVR4V3pMamF4MGFtZG56SnV5RWFFNDBYUFZSVk0xM2RpTFlCQ3lNTEdsT3hWVmc1UHlxalpTQ1lmUlV5bzVVa29VNG1Kd2VaQkc3MG5mZ3J5a09jTkFxcDRYTVBMVzBxaXBqdlpCTmhCS2dhUlU5R3FtQjVlUno2cUVxbE1DYUVRWGdOSVRMVUh4eUdibk1yeThwZ21RcDdFVHh4cDMzTFlmNlpOVUdwak9BS1hxUU1EOUZXUU9zQjN0b0Rka3hSS052LVdkWUZfZzRZM2c?oc=5",
+   "date": "2026-11-17T07:47:03+00:00",
+   "source": "EU-Startups",
+   "is_round": true,
+   "sectors": [
+    "Fintech"
+   ]
+  },
+  {
+   "id": "a2b96e342561",
+   "title": "Indian AI video startup Lemonpeel raises $1m pre-seed round",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM1laRWlNNFptT245QzViU2tvaXhwSWYtRi0waDdMN2p5WmNocTNOVUVlYVQ0MnVlUHdIM0VreUlDUmNWUHdWMXk4WklfcVdGWTIzcWdNQUtmcGpuamJMMFlzWDhQdHJPelJJajRFbGdNbTZMaG5XRGFNWkt6X2FMQ0w4Y1d0OUp3Y2R3?oc=5",
+   "date": "2026-11-17T06:39:00+00:00",
+   "source": "Tech in Asia",
+   "is_round": true,
+   "sectors": [
+    "Consumer"
+   ]
+  },
+  {
+   "id": "8f0820b009c3",
+   "title": "Industrial AI Startup CountAI Bags Rs 10 Cr In Seed Round Led By Equirus InnovateX Fund",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3JVS190VHg5STlaTURsM3FsQ2s5amZoc0dyVVNhMGY3bFpqemlseFVnVUpxeW1tZlNYb2hXRkVtZElkNXlQV01qNy1jZ1JfRy1JTG16TmxiTEJVWEZFRjZBU3NkU2pORGtIUmdReGVMSl9OZTREVmZTYlpUbDVadVBnTDdZWHV6Zl9weDIyTlZKN2hPeWxuVm1aODNfSkFCdWE4YXY2ZVRvYTBUX0hDWlJGUzUtOF9FbjhlTWNxczg2VzJ6ZDZN?oc=5",
+   "date": "2026-11-17T05:48:30+00:00",
+   "source": "BW Disrupt",
+   "is_round": true,
+   "sectors": [
+    "Robotics & Industrial"
+   ]
+  },
+  {
+   "id": "9977342d89c1",
+   "title": "South Korea's Soombit.ai Raises ₩12 Billion (approximately $9.0 Million) Series A Led by SV Investment, Total Funding Reaches ₩20 Billion",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KWG91R1NkVm5UVkNzNkMteVlnZmR6T3hTQnFFdEhyZzFndktPX0NqQWJ5aU5KNDZ3X3p2RUZZNlA0ZmlvWmkwR3ViTDMzN0pJbW4zTUlSaHBEczJ0cGotUTl5Xy1LUnBudzJfb1dnN0kyZ19XU2c?oc=5",
+   "date": "2026-11-17T05:25:00+00:00",
+   "source": "finance.biggo.com",
+   "is_round": true,
+   "sectors": [
+    "Fintech"
+   ]
+  },
+  {
+   "id": "5f9068d801ba",
+   "title": "AI fashion technology startup Fermat raises $8 million seed as customers include Asos and New Look",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYXBFbXk0bWlYUzN1eEhVeS13Z2tnVDNsbUprUmQ1cWh3MHhIVGJaSDlwRDlVQlJ4bUtaVUlOeE1DQXkwN1RNZHhxd2Q5NXZzckhsYm1icWpVb2N4aEVvT19qYldsb2xrXy1PZXZJQmsxajlfQ0V0RExSUGhEd3R6dnVaZXpOYnhMYmRCUE05Q3VqYnphUTdqSVNWYUR4eFVZMGtydmtsUWFYWmMyUTUxWWVaMGVIcy1qMmJmOWpGdEpzd3V5SmI5RkVfT2E0NDJEQ1dPRGhfaTIxMjhNcGliekpMdw?oc=5",
+   "date": "2026-11-17T05:00:36+00:00",
+   "source": "Retail Technology Innovation Hub",
+   "is_round": true,
+   "sectors": [
+    "Consumer"
+   ]
+  },
+  {
+   "id": "4b1438818ee3",
+   "title": "AI infra startup JohnAIC raises $1.9 Mn in pre-seed round",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYmRIMmFheWdjc3lqM3VFR0llV3hqeEl0Rmo3WlhRZVFQM2JSelNJZ05qRl9ReDNjZnpKU3RGSjdZZ2lLZHAyY0p4eVZGcWNsajg0c3ZsNUh5RTVxRHR5R2Q0d0xwOXozSDRpaXo4eXhpeFU3a1JuTVBaNGtBX0N2UTVqX2tnMDVjdjRoRE15YnNYY1BZZm5vTUF30gGaAUFVX3lxTE9iZEgyYWF5Z2NzeWozdUVHSWVXeGp4SXRGajdaWFFlUVAzYlJ6U0lnTmpGX1F4M2NmekpTdEZKN1lnaUtkcDJjSnh5VkZxY2xqODRzdmw1SHlFNXFEdHlHZDR3THA5ejNINGlpejh5eGl4VTdrUm5NUFo0a0FfQ3ZRNWpfa2cwNWN2NGhETXlic1hjUFlmbm9NQXc?oc=5",
+   "date": "2026-11-17T04:08:05+00:00",
+   "source": "Entrackr",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "dfe99be2cacd",
+   "title": "At SC26, Nvidia debuts new Rubin HPC chip, scientific research libraries",
+   "link": "https://siliconangle.com/2026/11/16/nvidia-debuts-new-rubin-hpc-chip-scientific-research-libraries/",
+   "date": "2026-11-17T01:45:14+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "6aa81544c2b7",
+   "title": "Corma Raises $125M at $1B Valuation to Scale Cybersecurity AI",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TaGxHd3ZaZHMtQ3BtcnFubkNQT1FJY2w5RVdlMEVEbG1TMXFKZVg3OENhWDNiOGtwM3hkUEd1dWxnUjVTS3F2R1pQTGFPWTFVdk5raHFRNTl6d05LOFpkYmI5Y204czQ0Y2k0VXhsTW1sUTFNSHJ1TNIBeEFVX3lxTE1TaGxHd3ZaZHMtQ3BtcnFubkNQT1FJY2w5RVdlMEVEbG1TMXFKZVg3OENhWDNiOGtwM3hkUEd1dWxnUjVTS3F2R1pQTGFPWTFVdk5raHFRNTl6d05LOFpkYmI5Y204czQ0Y2k0VXhsTW1sUTFNSHJ1TA?oc=5",
+   "date": "2026-11-17T00:20:36+00:00",
+   "source": "Ventureburn",
+   "is_round": true,
+   "sectors": [
+    "Security"
+   ]
+  },
+  {
+   "id": "73417c14a253",
+   "title": "Noeri raises $110M to help companies build living AI systems that self-improve over time",
+   "link": "https://siliconangle.com/2026/11/16/noeri-raises-110m-to-help-companies-build-living-ai-systems-that-self-improve-over-time/",
+   "date": "2026-11-16T23:45:51+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "8fe1cae973fc",
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "date": "2026-11-16T23:32:32+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Security"
+   ]
+  },
+  {
+   "id": "aac9ee78c2b0",
+   "title": "Woodlands startup Mavria raises $130M to mass-produce AI data centers",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWGZWWm1tUmttYUpEd0o1UVhoUE1NT1VObnYzdFF5Qi1kSmZVV1I1STZQbFRwLVRVMzg1WHhnVVFwaEh5ei1fYVRzeXVzY21kUWd2RzhSZ3BqVGlXUkZIYXRSSE1vcFBzZEJWMTFDNGs2X0ZUTHVzNS1LQnA0SzYzZGoyYw?oc=5",
+   "date": "2026-11-16T22:10:56+00:00",
+   "source": "InnovationMap",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "78517461f094",
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "date": "2026-11-16T22:03:02+00:00",
+   "source": "TechCrunch AI",
+   "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "d1b828e9db1d",
+   "title": "Alibaba launches Qwen4-Max with training, attention optimizations",
+   "link": "https://siliconangle.com/2026/11/16/alibaba-launches-qwen4-max-with-training-attention-optimizations/",
+   "date": "2026-11-16T21:21:09+00:00",
+   "source": "SiliconANGLE AI",
+   "is_round": false,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
   {
    "id": "3ccc52b20dee",
    "title": "Three insights you might have missed from theCUBE’s coverage of GraphSummit 2026",
@@ -6601,6 +7726,28 @@
    "is_round": false,
    "sectors": [
     "Dev Tools & Infra"
+   ]
+  },
+  {
+   "id": "ea2fc5fabba2",
+   "title": "Numa Raises $45 Million Series C As Dealership AI Revenue Triples",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPem84ZjhZVDhLMUxiYUd4WGtJcTNDaVlNSDRBVk8zTDZ2LVRhMVhPcDF2bXZpRTNILUJUdHg1VGJEYldjNmhWNGZiMzFWUDg0NU1Yc1JUczFWRDlVeUFUSWprSW4tM3duVzRfQWVvVFRPdFdsSmJVS0ZGazBMSTFQYnBDSm1qN2F2VDU1Tg?oc=5",
+   "date": "2026-11-16T20:29:04+00:00",
+   "source": "Pulse 2.0",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "f07163edd9f4",
+   "title": "Defensive Cyber AI Lab Corma Raises $125M Series A at $1B Valuation",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UcVQ3ZnpkQ1ZudmpUVWZZcUxJQlJmTHFxVWs2VnQwMWt2X2s1RThDRHg0VUpTYWpVYkJoY1JMU3ZXS3M2MFVkRWl0b0tDN3VBRVlZ?oc=5",
+   "date": "2026-11-16T20:22:57+00:00",
+   "source": "Wowtale",
+   "is_round": true,
+   "sectors": [
+    "Security"
    ]
   },
   {
@@ -6703,6 +7850,28 @@
    ]
   },
   {
+   "id": "81072e91e673",
+   "title": "Alecto lands €18 million to scale its AI-powered law firm beyond property transactions",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMlNzZ0ZwWnJ6dmVITGJTeWRDcEdITmdLenV1NFh0X2RJN0JFd2tNMGl0WHBhMjAtWU9hOHJuc0NfQmNXczh1RjY5OTJRYzhxWDZzclJnSEpoOVdQVHRuNHhFQlVIelRTZ09OcnZJQUVoMUZVdTBISURQekhMdUI0YkVVSEZEYWxCb2EyUGF1UnA1NHpucFRIVS1uME9XUUNidGRjdTJLWUlIcTNkRzZZeW53ZHA1em4xaHRtRHJOUlk?oc=5",
+   "date": "2026-11-16T16:09:10+00:00",
+   "source": "EU-Startups",
+   "is_round": true,
+   "sectors": [
+    "Legal & Gov"
+   ]
+  },
+  {
+   "id": "28d1c5d2c81b",
+   "title": "Numa raises $45 million at a $500 million valuation for AI agents that handle car dealership paperwork",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSDl4WXJIaEh6ZW1VaDdibHJkaWdCbmRxNy1FMlRySFM3QjVDbndFMlNJZV9sZkdadU9FY25HS1hKU0oybzk1VlFHbE5LSVRmVTB0TTNIZEtKRDd0cUtCXzFJQWJIazBja1U5VkZxc2hUbmZSOGs0S1VfTTE0cGdRaFJfVU5nSEt1T01HQWpPYjc3U2R2bk1jN2l2cndzTlBLMW1odnlzSlotTXkwSkdrOTk2ZXBPUWFxcy1NNkNn?oc=5",
+   "date": "2026-11-16T16:04:45+00:00",
+   "source": "MLQ.ai",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
    "id": "192135bd0da7",
    "title": "Dreamteam, an AI-native CRM startup founded by former Freshworks executives, raises $53 million to take on Salesforce and HubSpot",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQTZ2cTZaaXBNU1g4ZllLbFBtV2d1NmpLa3NJc051NHVTVG52a0hucmRuc0lxRktudFJuX3FPS3N3YjZsMUlBR1MtbkwyOWQ1eF8wRjkxcUpOck9MRFpWUEV6QS14Q1FqOVRZZlFTWDF1WmhySk1jOFhLbjFjODVvUFozOEFHdnJJeGhDYm5mSkJ5cnRMNy13N0gwQ1JBMUg1NnBSNnMwUmtOSmw0Yy12NEJDXzBxcldvYUxUaVZLOXd1ak9xdUNBQXNza1A5UTM2TnhWSzVDR0FDc0l4MzdVeQ?oc=5",
@@ -6714,12 +7883,45 @@
    ]
   },
   {
+   "id": "218cb26fbf96",
+   "title": "Numa Raises $45M Series C to Expand Its Dealership AI Operating System",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaUtPcFlwTHhlNGpveTZMQzZfUFB6eWhyVTJBTVRoS3JIWk1weHJSaDNyU1VRVjhxb3hxcVN6TzRwbzdoNjFreDVFS1NHOTNHY1FWcU9OeEpwQ1d4T2J4QlYyajFQV0pOOXNadnZtcGpYNERLREk0bHlxZFFsd3hfZDBSQTltbVRPVkZfRGtMN1FyOTR3clE?oc=5",
+   "date": "2026-11-16T16:00:05+00:00",
+   "source": "Unite.AI",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
    "id": "10a1d1d5438a",
    "title": "Audible turns to AI to help users discover audiobooks",
    "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
    "date": "2026-11-16T15:52:19+00:00",
    "source": "TechCrunch AI",
    "is_round": false,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "7ab1a8279d88",
+   "title": "AI-powered accounting fintech Count raises $6.5m in seed funding",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTEczamR5cHEyMVp5bTZZZ05pRHVucEtnSWZ5a19rUlVmVC1TQU5vaXNiTTNuS1pPdzVRcU96dnVsZTRtSlhWU1VKSVJuZDM0ZE9CNWVhdmVxV1Fub2RIcHZ2M00wMWlyQi1FUjUxNkNFYTBHQUhFVkhldi0waVJGakZ0NExrMktVdDUwQmtxVGcxc1ZENkoxTms1SkxOZW1lMVJwemViOHE?oc=5",
+   "date": "2026-11-16T15:51:00+00:00",
+   "source": "Finextra Research",
+   "is_round": true,
+   "sectors": [
+    "Fintech"
+   ]
+  },
+  {
+   "id": "ec0cbbcd9f43",
+   "title": "Numa Raises $45 Million Series C to Expand Its Dealership AI Platform",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3dueHE3NklJd1lZZUJ5bW5uUHkwTlhDWlBoVVAtQkpWUVNKSnNocHAyV2NtVTNTaTQwaFYxN3h0NW9xM0xyNlduaVFlVkJocjc4WnNpVm5sV1FCeGtqRzRWa1hnZThYUTJJVkIxeEJGNXFFd1duNUJvMVpJbEpzcHI1MnNTLTR2dGJyNHpPOVBySDluWmdBX0dHOA?oc=5",
+   "date": "2026-11-16T15:39:01+00:00",
+   "source": "Securities.io",
+   "is_round": true,
    "sectors": [
     "Horizontal AI"
    ]
@@ -6755,6 +7957,17 @@
    "is_round": false,
    "sectors": [
     "Consumer"
+   ]
+  },
+  {
+   "id": "46780ad9f78b",
+   "title": "Numa raises $45M Series C to run car dealerships on AI",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUkZPQzNKZ3lZUW92a2RkdEkwRkpueTIxcDJNTVRwRzNxSUdJcUQ0WTl3SWhIUEs4NmZnd3lJcWtYMHhmTnNVYVBBcEpWU2U4cDhjaVBMOXJ4OGdlU01hMmpIUHB2WEVNLXIxbVZaVUoza3BON0kwWnYzeGtDVkFsRmJFakJhaDBEOTFOdmpSX1M?oc=5",
+   "date": "2026-11-16T14:44:28+00:00",
+   "source": "Dealroom",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
    ]
   },
   {
@@ -6994,6 +8207,17 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWNBQWt3ZnR2a0FlaG52SUpkLVh3dFFTNlF2V09Lc1ZuMGtfLTV0b3VENlJOS0ZTZmRXOWx3YkFQMEE5ZVQ0NENmczJTOXBRQk9ZcURhMlJuV0lpTDlWLUYtaWtWcEgtcUFGbTFuaG42VG9zNGN5SDFaNUZHSWdQeVBta3htU2ZkY3Z0bXUxc0ZtMlJOVXpiNnB5MENjcW5TM0pNY2RBV0xuSW1mTzhvRlk4aUg4SkJrX01ndXVGSWxPaUFHcTdqekg5MNIB1wFBVV95cUxPdHJMNVRvY2FPME83YklydjJjcXYxVjROMEppaE1EMVJmNFhSaWs5a0hScWJidERMRzh0VFhuTFRTT200UmpEelNZeWhGZ2IzaHJhekZMc2o0OXJaQnRFVzEwMXg1TF9qSDNjN3dSNlBHa3Y2bGlYMUpfUTVJejdPUGdxaWtTZDhVUkYzSkNDVG5nQzhiYUtlTWt6NlpRZGhlV1FZU1c5Zmp6S0xsaXR1a0o5NGY2d3djQTl2UGlXbjgxRmNlN1RHcUItcDNVakhtYTJtNXhRcw?oc=5",
    "date": "2026-11-16T00:11:15+00:00",
    "source": "Business News Australia",
+   "is_round": true,
+   "sectors": [
+    "Horizontal AI"
+   ]
+  },
+  {
+   "id": "e83112cda712",
+   "title": "India's Bharat Semi raises $24M seed to build AI image sensors",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjAtcmpIOE9mWUE1OFVFcXZGcjB1b2I2TDNhcmkyZ0ZKU0lpTi1KYWJHU0VwM01oblgwOGtIWk96djdPS3JPdGt3TnZaNFFSXzdSRU16bFV5eHZuSWY5VzdqbkxpV1c3ekpEMzRYZjBOTjNpVWdrcWItX1daX2xBY01sR2JWSEl6SkJ0aG1iUnRDOUhlWXBqWnpaQQ?oc=5",
+   "date": "2026-11-15T23:59:56+00:00",
+   "source": "Dealroom",
    "is_round": true,
    "sectors": [
     "Horizontal AI"
@@ -7354,6 +8578,17 @@
    ]
   },
   {
+   "id": "575db918d5b8",
+   "title": "Sparxity Closes Series A, Bringing Total Funding to $90M for Sparse-Native AI Chips",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN0t2WlY4Q3JNUVhuczdBMnIta0tnXzZWZEpDY3VrZHM4YWxmM1pJUHQ5QXdROV9vZUJoZnhVb2I5NUV1Q0JSRzlXRGJfLUNpWWdXMzNFNWloVkVETGhHTkhfeE5FQTh0eG5sLW1kcEFQUUtGWkllc2dFdFJfYngwZ0hCcGxXbW9yd1NLNF92Zi1Ua0VhenR6N295emZpc1RkN1ZnMUhvSVFUTFNCeU9EWFVVUXY3TllMZjBV?oc=5",
+   "date": "2026-11-13T08:11:46+00:00",
+   "source": "AI Insider",
+   "is_round": true,
+   "sectors": [
+    "Dev Tools & Infra"
+   ]
+  },
+  {
    "id": "ab5fc22a8bac",
    "title": "Desible.ai Raises Rs 32 Crore Led by Prime Venture Partners",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVpLcjQxSjZxNHVhcGtpaHJQMkpqaS1aNHBfbW84R240UDJVNjBOeVJTM2pnLXlZV1JGLWZnZWh6Tnp2QjJUSEhYY0VSaHBhZHJwc0JZUUt5Rk1GVXF4TTdiTnBuSHpHNkU1RjB1WXRTUkJnd3hmWTl6ZFVtbUhOdllodzhTSks4N2NtZUxUbVM2QW43NzRVRkd1eXhNM3pVa2IyUnhXV2VWN3lEa01QWkZHaTlIV2lwWnlrakxKXzl0a2JMWHc?oc=5",
@@ -7439,817 +8674,6 @@
    "is_round": false,
    "sectors": [
     "Sales & Marketing"
-   ]
-  },
-  {
-   "id": "078ba3849229",
-   "title": "Muse can now place calls to US businesses — if you pay",
-   "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-   "date": "2026-11-12T22:22:28+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "41d90b409f82",
-   "title": "What to expect during SC26: Join theCUBE Nov. 17–19",
-   "link": "https://siliconangle.com/2026/11/12/high-performance-computing-ai-thecube-sc26/",
-   "date": "2026-11-12T22:13:35+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "42f5406a5f75",
-   "title": "3 ways AI is changing the healthcare revenue cycle",
-   "link": "https://siliconangle.com/2026/11/12/3-ways-ai-is-changing-the-healthcare-revenue-cycle-adonisai/",
-   "date": "2026-11-12T21:36:13+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Health & Wellness"
-   ]
-  },
-  {
-   "id": "da60645a62d0",
-   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-   "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-   "date": "2026-11-12T21:27:10+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "ed94e81040dd",
-   "title": "4Minds Raises $15M Series A at $500M Valuation to Advance Its AI Platform",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2RBVU1UQmNCNWxqUVFJYWE4VzdYdm4yU1B6OWw2UTdOLXhucmtpS0JNZm1DRkZVSUVlWUNoVEFrY2VlVDNFMllIbkVKVWc0UnNWdTgtM1VkNWk5aGU2YkhkNHVHTHVwRzR4ZGZlX2E4bDh1b3hFSnp1Z0ZoSGQxNHFWV2lsdUlDcXRIZmNJWU1VamxoVzNESA?oc=5",
-   "date": "2026-11-12T21:13:01+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "ae64dfdb5619",
-   "title": "Kubernetes gets a second act as AI agents turn one prompt into thousands of inference calls",
-   "link": "https://siliconangle.com/2026/11/12/agentic-ai-systems-push-kubernetes-second-act-kubeconna/",
-   "date": "2026-11-12T20:52:08+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "856dcba056e0",
-   "title": "4 insights from Block Builderlab Launch Event 2026: AI agents join the team as working colleagues",
-   "link": "https://siliconangle.com/2026/11/12/block-builderlab-launch-event-2026-ai-agents-join-team/",
-   "date": "2026-11-12T20:48:47+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "d477c32e2a65",
-   "title": "Jensen Huang was having a third affair, Reuters reports",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-   "date": "2026-11-12T20:26:47+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Future of Work"
-   ]
-  },
-  {
-   "id": "3e9045cce33e",
-   "title": "Google retools Kubernetes for AI agents instead of building a new stack",
-   "link": "https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna/",
-   "date": "2026-11-12T20:01:17+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Future of Work",
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "19370949eca7",
-   "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-   "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-   "date": "2026-11-12T19:27:45+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "521413fce9da",
-   "title": "AI startup Morsa.ai raises $1.5 million pre-seed funding led by Jackson Square Ventures",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORXkwZGNFWUxtQkVTQmxnUFlRZXI4UHNDaU9UM2lHYUpTNG5ZMUZkTEdwcHpEVDhwVjE1cG5qRmo4WTlXWnRIWHJVa291M1lmSlA1ck5La1pLTkdDLUJEazlubDdnX2N5WE5hbWt3WUR1anhyWWtaRnFYVGR1TlY0T3hEcUw3Qy1PUnk2OExVRENiS0RpRTdkSHIydWFBNkQ5UFd1NEJXa0JMODN1NnBXQm1aaXhLMXVnMk1XSlktei14VEY2RUtBcVBNX0p0Um1uNVHSAdgBQVVfeXFMTWg3R3lHYnVXNkdSN0hpakxsejNRMTdDc2cwMmd2ZnRUQV84b25GUktqN0ZwWWxWQzBKVmZpY3gzRlRaUTZtMmF4MXM4aWRVMmlyS2xSNHI0Rlc0Q3ByeWZKc1VLamZ4U3NpMlRVS3ZJV3JKcmVLTVlWbWJ6bllxeGltOTZyS3AzR2IwVFA5MmF4ZHZwZHlXUFVQa2NhVHhISGM3QU81MTVIelB5S1N6eVZhRWNtMFYzVmtzSWNJZ0dBRmY4d0ZmOXJyQVg5ejZNVWVMQkgtcUh1?oc=5",
-   "date": "2026-11-12T19:24:44+00:00",
-   "source": "The Financial Express",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "8695cdf47c66",
-   "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-   "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-   "date": "2026-11-12T19:11:00+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Consumer"
-   ]
-  },
-  {
-   "id": "5045f7bb541a",
-   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-   "date": "2026-11-12T18:39:23+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "7409808ac743",
-   "title": "Mirendil Raises $1B Series A to Bring Frontier AI R&D to More Teams",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQUszbXRZb1A0eEh2SVFYWHBhZjVxdEhqOG9zU1BrSHY2Tno2c3F4a29FM3Q1bFF0TVh0ZGp4cnVob25PcXRiZWNsSW0yTFRtTGZ2MTl1ODhOYzJ6SEVzeENFcmxIaFpNTW9McVJKakEzRFhqc1RfTlNXUzRTS3F3WHVyeTRoYWo2M1Y0a0NmVlF0RmdmdkNj?oc=5",
-   "date": "2026-11-12T17:58:03+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "019ecbb9fd2e",
-   "title": "Torus Raises $500M Series C for Modular AI Data Centres",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0tnLUkwamhiMHdWU2ExVHU2XzgxYUJkN3hsWFZ1NjZReFozd2NZWkhwVW5QXzhXZHd6RWV4SzRtVllZZldhdjdmSEdmTGtvaGVBQ2Jrd0RhQWFHWTh0UFczMW5RbDZjMGNUN255STYtMF9vNFE4VVNMZ3lLQnBXeDFKd0h3bm04TUVr?oc=5",
-   "date": "2026-11-12T17:46:16+00:00",
-   "source": "PropTech Connect",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "aadd5573218d",
-   "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-   "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-   "date": "2026-11-12T17:36:40+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "d350eadbbd52",
-   "title": "Dallas AI Startup 4Minds Raises $15M Series A at $500M Valuation",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRi14Z2N2VjJBYzdKbDNDQ3V4QUk1OFBKb1lVa3k3UmRjdlZKbFRNbFZsTmJuT2F0MUE5YmNmeUlxdDJHYVE3WFZIcnVLUVEteXdnS240Uy16aUtGMmFZeGVEbXFLTjZ4amlmdHlnVkZraTRoMkhYbnZFbFlRbUxLdzZkT3dVVnRWa0NsRm1uRkJUYVRndmc?oc=5",
-   "date": "2026-11-12T17:19:33+00:00",
-   "source": "Dallas Innovates",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "dde431befee7",
-   "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-   "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-   "date": "2026-11-12T17:17:58+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Security"
-   ]
-  },
-  {
-   "id": "3b3ce4e4f4ce",
-   "title": "Orakl Oncology Raises $34M Series A to Expand AI Cancer Drug Prediction",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0d2NFBYclM5TGJQajQtNlNhY21zQWRPMGpsOFJQbHU4RlgxbU0yMWtfY2JwMDgwVl91TVBXbGdOajBnckJkc05mblpRZWJLTnRqMlprOEtkVU53WGkxcmxReE40bXZKMktHZEwzdDRxVWlseUFEUDFha003TEtuUmhCTlBRckF3SEczaGcwWUdCejlrVW5TNDBOSQ?oc=5",
-   "date": "2026-11-12T17:05:03+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Health & Wellness"
-   ]
-  },
-  {
-   "id": "392ba0433a22",
-   "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-   "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-   "date": "2026-11-12T17:00:52+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "80d71e31bc8d",
-   "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-   "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-   "date": "2026-11-12T17:00:00+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Consumer"
-   ]
-  },
-  {
-   "id": "b7c968191efa",
-   "title": "Jensen Huang agrees to testify before Congress",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-   "date": "2026-11-12T16:36:37+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Security"
-   ]
-  },
-  {
-   "id": "266a52edf7b5",
-   "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-   "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-   "date": "2026-11-12T16:32:33+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "1df1af081cc5",
-   "title": "AI influencer startup Distribution Demon raises $200K pre-seed",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOUJadDhudUM2UjZ6NmpNNUUzT0kxbUFPbl9JQTVrSTdtOEFkb3ZVMEFZMzJYSlRtM1ZmTHNYZ2I2SEJNQWFRX1hKN3FTaW8wXzFISVJ0MUs3dnJrd1JBMDE3ckktVlFuYkQydGxhU0dXS3RGSVlnenVsbjlocWFTWnVjUnNBc1FCVkcyN3ozdUdjMGlQWXdSbkhWSQ?oc=5",
-   "date": "2026-11-12T16:13:39+00:00",
-   "source": "Dealroom",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "e4d70c6a40e6",
-   "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-   "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-   "date": "2026-11-12T16:12:44+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Consumer"
-   ]
-  },
-  {
-   "id": "d0411a2abde5",
-   "title": "Mount Thor Raises $45M in Funding to Expand AI Cloud Infrastructure on Apple Hardware",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcUl2RTNDTW0waW5DSUNxUElSU2tWemVCa3Ffc18xV0FhS0s5NUd3cHRCdlNTME1BSmxVdU80Q0d3dlVvaDBoM1BwcWdMdFI3Q3hLQ2ZkUjBpaWctSmtoTjJCR2VpMERoTnJ3Mnlxb0tUZFUyc2dCOTVrWjJLWXZoUjZWSGRrN0ZzeHRybVBNZ1FnVnkzekFrMmUteGxmczJuX0lVQ0pqRkFhaFNfY3FKNnBnZUU3OFVGb1hTSkdoQQ?oc=5",
-   "date": "2026-11-12T16:00:00+00:00",
-   "source": "AI Insider",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "a32c22bb5730",
-   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-   "date": "2026-11-12T15:37:29+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "211ceccccbcb",
-   "title": "Norwest pushes deeper into AI with new $4B fund",
-   "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-   "date": "2026-11-12T15:18:14+00:00",
-   "source": "TechCrunch Venture",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "07016297f40c",
-   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-   "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-   "date": "2026-11-12T15:02:28+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Security"
-   ]
-  },
-  {
-   "id": "fdc563f2bc85",
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "date": "2026-11-12T14:30:01+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra",
-    "Security"
-   ]
-  },
-  {
-   "id": "6ad8648c86f5",
-   "title": "Q-CTRL Raises $290M Series C to Scale AI-Driven Quantum Software",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZlJGTG41c2FBQ3ZkN1k5M3pnZmRMNTlxMVN2YTlHbXc1WTltMklqTW1xdzR1TExRbjB2SGF3MDZiLUZ6T3g3N0xPMDZLdFphb1BOekRjTkJ3WTV6MzE1VFBzVGtxRjhBaFJsamR2Z3pwMm5mSWdDeU9EcGZqTElKYllVcWc2dWx2TzRFbWJ3?oc=5",
-   "date": "2026-11-12T14:07:03+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "bcbf877cd147",
-   "title": "Clipto enables ChatGPT and Claude to search and analyze years of people’s meetings and video calls",
-   "link": "https://siliconangle.com/2026/11/12/clipto-enables-chatgpt-and-claude-to-search-and-analyze-years-of-peoples-meetings-and-video-calls/",
-   "date": "2026-11-12T14:00:52+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Future of Work",
-    "Consumer"
-   ]
-  },
-  {
-   "id": "5b85d89701d7",
-   "title": "Qvyon launches with $8M to improve safety for physical AI deployments",
-   "link": "https://siliconangle.com/2026/11/12/qvyon-launches-with-8m-to-improve-safety-for-physical-ai-deployments/",
-   "date": "2026-11-12T14:00:18+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra",
-    "Robotics & Industrial"
-   ]
-  },
-  {
-   "id": "74b2ce767031",
-   "title": "Britain's Fractile Raises $720 Million to Build AI Chips",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYnhTVlhLNUhoY1NsQ0VHYXNoS2hmS0piLWdYbHFDOEVXNkRrMmdPR1VYWTNRNGp4b0hhaHlEXzBpVGJ2amlsSDdyUU5pMVN1ZDZRRXJmclM5cmo1ZEdYTDlPbkJ2YjhtLTUxUUdfSUlPNTZBWlVlUWJXY2FvQm9HTmliWnNNT2JoRXNKdGNwWFhhWnVM?oc=5",
-   "date": "2026-11-12T13:57:53+00:00",
-   "source": "Daily Voice Of Asia",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "942d915f500e",
-   "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-   "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-   "date": "2026-11-12T13:26:25+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Fintech",
-    "Health & Wellness"
-   ]
-  },
-  {
-   "id": "6ae7ba1ed276",
-   "title": "mistEO Raises ₹18 Crore Seed Funding to Scale AI-Powered Climate Risk Intelligence for Banks, Insurers, and Agri-Value Chains",
-   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRHpoVHA2T1ZiSzBwekpldFY0UGswbXNkVG5adXJoNVJpS2VDLWhBeUozbzU3ZmNBbjUtNFNQNTJNMzZlOVNTQVJvNzJjSjF4aU5ZbjVpMlROemFqUDVfem5qZ2FyZXpGbnFzVzhyU0xybUxrMHczSkx0NWFPcmdOS1NSWUJ2amlSMEMwVE1EMDBmOXJ5cVhJQXZoRVBpQ1BZLU15WU0zWGZONTlEVTQzT0w3OXZTT2FHcktWcjMtU0FPaENUUHZWVjZDZi10NUQ3TG9DSnlPZzZSTDdXZjQtcTh5cF8zVFVOSTFBdXo3OXVkYzh0SWtLY0M2WFktNGs2MXgzZ2EtZ1dCUQ?oc=5",
-   "date": "2026-11-12T13:24:09+00:00",
-   "source": "Indian Startup Times",
-   "is_round": true,
-   "sectors": [
-    "Fintech",
-    "Energy & AI infrastructure"
-   ]
-  },
-  {
-   "id": "b3154bf2346c",
-   "title": "Exclusive: Qvyon raises seed round for physical AI testing",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaU00alByZ2JJbjNFUEtvY1JHSTZXYlBYUm43dS1HcTY1MG1UbTBEMWlPZl9qNU0tOTF2QmE2cjZyNm1abHdQbF9BS1hnVVhXQ0NUTUd1M3VmY2xjcUM4OTIxaGwtUHpLdDJ2Wjhtak5BUkctY2MyMF9EV29JODZqLXQyT2ZGMl94Skc1OGh5R3VYU2VMd1RIOFNoTmpfNkFYd2sweUZPSVU3clE?oc=5",
-   "date": "2026-11-12T13:13:26+00:00",
-   "source": "Axios",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "962fc77c211a",
-   "title": "Hatz AI raises $24M to help small businesses go AI-native through their MSPs",
-   "link": "https://siliconangle.com/2026/11/12/hatz-ai-raises-24m-to-help-small-businesses-go-ai-native-through-their-msps/",
-   "date": "2026-11-12T13:00:47+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "359e75e38541",
-   "title": "Q-CTRL Secures US$290 Million Series C Funding Led by Salesforce Ventures to Accelerate the Convergence of Quantum and AI",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeThtOHZUMURvUW5FYVlnMVpUX3VBM21Qb3ZTOFNDX0E2X2ZlZGxmNTd1R1YxMmV5ejR6dVN5cW4xSXd6SDBXWWxuTGNseXk2Z2R6RWw2WkhjSXdGS3lXTmN3SEhPcE55STdxNVJRd0JwV1I2U25HVTluUnEycjZXOTV2OUZFcDhPRUdsdHdaUVA1SXhwbjRiVVlXYVJzNWd3dlhPSVdXNHloUFhEekxrV21fVTZsdlJ6Ymt5M1p1RVNnWUNsdFVuTy1yX01Rb2h3V0JiYXU0NFc4SVJoa3c?oc=5",
-   "date": "2026-11-12T12:42:08+00:00",
-   "source": "Q-CTRL",
-   "is_round": true,
-   "sectors": [
-    "Sales & Marketing"
-   ]
-  },
-  {
-   "id": "d8725f7387a8",
-   "title": "Serial entrepreneur's new AI startup hits $500 million valuation with new funding",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY1IwTWt2REEwRFNBTkc2dk8xdGJISXdDUXZWQk50UDRzMWNvZUY0a2RPdW0weThZTDNLaF9LT28wUGktNFJ6T3Z4LUl0WnhZOS14eGpXclVob1dkcmJTbS1vLS00SEhmRlh0MGp0dWhENUhPVnNyUVJ0WnpTeko2Y3BZaUJzREg4QzhsRnQxblJNb0drXy1FWkV0bE1Idms?oc=5",
-   "date": "2026-11-12T12:30:00+00:00",
-   "source": "The Business Journals",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "72c9ae2a03bb",
-   "title": "AI Inference Chip Startup Fractile Raises $720M at Reported $7B Value With No Chip Shipped",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSDdWV2RERG5qamZTaWsweEROMEpPZ1F5MElBa0RmSEhULVZkMTY2ZkkwdExuQzRFQnVIeE1KZGlOdS1ybmhTRWNhLURwYXhsWkEyc3VKQnh5SVlXa0VLLXBuZ1pWWXdEWU4xbTYzcHlVc0dVa21nTjBiMlZkd1dxNlo3SFg5c1FSOUtDcEY0WW5VaHYwR3pUWTk5T1haS0FScEZhZHNBODk3ZkVYQmdJNkFzWGtab2tTNktHYmIxOU1GM3k0ZXo3Z0dIV3BHSUVu?oc=5",
-   "date": "2026-11-12T12:26:49+00:00",
-   "source": "Tech Times",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "3363709d0842",
-   "title": "Berlin-LA startup Opdo raises $2.3M to automate optical engineering with AI",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOczZTYm42X1lHWTBBdm43Rlp3Tng3SnVYdUlFYmhsMTRlaDlNVWk2THFtSllRMTk4YkVZdWtNUlctM0FrS1FoZnhtTjJadnU2aDVDVUZ2cGxQNUFmLTg3WGFvUTlzbGdXNTRMdTU0d25BWHM5Y0FBMjNJOFdlNGlJVHo1NHhaWWwtT3J3bUMxNGoxeWJycDhCdVNtcE5iYVFtWE9R?oc=5",
-   "date": "2026-11-12T12:25:37+00:00",
-   "source": "Tech.eu",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "d8a3b25c3200",
-   "title": "Biomatter Raises $18M Series A to Expand AI Enzyme Design and Testing",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVGlCUVZhalpHbW1Cc0JLdi16QnFsMTB1ZkhhcnpSa3ZpdjR5d0dZcWFGX0R6R0RxMnhzUkNLcGxMLTNGZnVkaWt1RU5ENGRrS3NVbTM5d3FpT1VJQ0ZxWXlrRGN4Q1A5V2hqRURONjE4TWNCS1g5S2ZuOHFnSXNvQXBDdWNMSXA4ek03TXFwSFozdnpj?oc=5",
-   "date": "2026-11-12T12:03:02+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "0c89911f8337",
-   "title": "Mondrio Raises $3.75 Million to Connect AI Pricing Strategy With Deal Execution",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIRTdmeFVxQlNrbFFDbXRBWld6dVk2RGpEdGV1Z2ZvdmtnMW13QmZjdjJORVN3dmdVaEpjWHBxMmJtUmxIMU5wRGc0MTYwVGFsTVZkdU1yeUpNa3pQc3BmVktUT05qNFVfTVlyTHpObWJIQy1Obk9tNmdRZmczZw?oc=5",
-   "date": "2026-11-12T12:00:00+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "2129f7e9f5b3",
-   "title": "Agents that build their own databases are forcing a data foundation rethink",
-   "link": "https://siliconangle.com/2026/11/12/data-observability-becomes-must-ai-agents-build-databases-kubeconna/",
-   "date": "2026-11-12T11:02:13+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "dc0e2161287e",
-   "title": "Nebuly wants to help enterprises understand exactly what their AI investments are worth after raising $21M",
-   "link": "https://siliconangle.com/2026/11/12/nebuly-wants-to-help-enterprises-understand-exactly-what-their-ai-investments-are-worth-after-raising-21m/",
-   "date": "2026-11-12T10:00:35+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "382f52a0ff88",
-   "title": "SE3 Raises $30M Series A to Scale Spatial AI for Autonomous Systems",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTjhmZlJqZ25hdHNxTVYxaUh6cjA0bWIwb19YZmdTRDNBRkI3RElyQUdSY2VfT0xCdEdncndfSTlLaDFXRkhhRlFMbEo0TEpSM0toYldxWUNVOHQ4UFRIdmNpQTMyVDV2TC1RMWJ0UEt0eWRoU1hHWFE2ZXBSVHM0T29CMk9SWHFoUXVwUk1QZV8zQQ?oc=5",
-   "date": "2026-11-12T09:48:03+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Robotics & Industrial"
-   ]
-  },
-  {
-   "id": "e9aa36b5e581",
-   "title": "Traversal Hits $1B Valuation With $120M Series B to Build Self-Driving Production",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSGdjVHJvajNLQnd5OVpYNkpiSUliMHJaaUhxaWtoblpocTVZdThDeFd2ZHRjdlVKbDdFOFlBS0xZZkFsVEg3Rkt5bDBpZHU0Y2dCSExCZUR0SXYtV3pQY3B5ZkdKSDZISUJjRTIzTUZtQTYyQUlfT0RPNEdaUUJJR3hGSTZqaXY3VDZvTlR4OTNnTnNpSTR4MjBsVG1EcGFJSnhTVnBYNnJTMnNYTUhNa2Eyazh4MnVI?oc=5",
-   "date": "2026-11-12T08:42:09+00:00",
-   "source": "AI Insider",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "4655afb2eb4e",
-   "title": "Worker.ai Acquires Czech Voice AI Startup DeltaGen, Plans to Grow Its Prague Team",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUdpbWthdWtHemVTelAzVzMwYmxUWDNmRUhxSEdFdndhWk5SMTY3NWlVdkJGa2d4azN5aGl1U0RIajJhcm5tZVBJakRqRzZBSTRWNUl1YUVmTGlreWFDYWI2am1vNzFaOHJ4MFJZS1ZGYjVzaGMzOUdRUU5wLU4xYTZydzctOHVZcUJIbVZDUGlhTV9xZE5SSFlzTFZlQWctX0ZzWldiUFRwUnUxZlRN?oc=5",
-   "date": "2026-11-12T08:19:03+00:00",
-   "source": "The Recursive",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "8ea6be2d494e",
-   "title": "Nebuly Raises $21M Series A to Expand Enterprise AI Measurement",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUFJjZnJuWEZIcmNhOExNTUJMNGVCZl8ySWVjMTRNUDNaNGFFQ1hWSEVJcmVGMVhuMjBVTlhXUzZBVElFZG1wa1hQT01aS0x1Wi1KUEVhVndfcl81WXJyblZ2VnQ0X2pia1owQnYtY3VDdWxJYU94elNNMl82SGV5WDZBS0pqYjRQa3JTUA?oc=5",
-   "date": "2026-11-12T07:11:02+00:00",
-   "source": "Unite.AI",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "857d2d2952be",
-   "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-   "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-   "date": "2026-11-12T03:13:10+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "72dfe31c542c",
-   "title": "Google’s GKE Labs turns reinforcement learning into a Kubernetes workload",
-   "link": "https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/",
-   "date": "2026-11-12T01:51:03+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "6acdfa8d396a",
-   "title": "Google enters decision model market with Gemini Decisions API",
-   "link": "https://siliconangle.com/2026/11/11/google-enters-the-decision-model-market-with-gemini-decisions-api/",
-   "date": "2026-11-12T01:22:05+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "fedc6c48d540",
-   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-   "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-   "date": "2026-11-11T23:28:45+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "c35beda579a0",
-   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-   "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-   "date": "2026-11-11T23:17:05+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "960107b220cc",
-   "title": "Rox raises $100 million at $1.3 billion valuation to challenge Salesforce with AI agents",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdXZ1XzFqbkhXRkRRRGVjdl9oa2RfZGpNMThTRXk2dTB6N3FWeEVZWUZtbi1Sa1E4M0JabWF0THhMZ0ZUVFlpV0ZxOGV6QXZHU1dxODZlSmRuRlB6cEw0S3dWQ0pWRnJIUlpHaS1jRGw4T19lREVrMURUaTFOYXUwNFJ0MWNydEF1bVltYUNRMkZ2a2FISnJ2R1dVd0FBYlNRVHg0RnNPWDQ1YThPRHFsN3p5cHZKaWVQV2xKM1N6RERBZDVXYUtqNUliS3RrMldqdWItMA?oc=5",
-   "date": "2026-11-11T23:02:25+00:00",
-   "source": "The American Bazaar",
-   "is_round": true,
-   "sectors": [
-    "Sales & Marketing"
-   ]
-  },
-  {
-   "id": "1f7cd90d41bb",
-   "title": "Google tests Tabletop, letting groups build planning tools with an AI agent",
-   "link": "https://siliconangle.com/2026/11/11/google-tests-tabletop-letting-groups-build-planning-tools-with-an-ai-agent/",
-   "date": "2026-11-11T22:37:09+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "42411d2a1231",
-   "title": "Fractile Raises $720M Series C to Break the AI Inference Memory Bottleneck",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12bE00aFlWV2F6Z210Yl85eDZMR1lfTnI3eDBSWFRnb1VuOWt1VndmcHpNS0RtZ3ZRUjgxaHJfSFZSaHdYNW9FU3A3RHFUeGhCRHU4?oc=5",
-   "date": "2026-11-11T21:28:34+00:00",
-   "source": "Wowtale",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "f816ae9e4bb8",
-   "title": "Rox: $100 Million Series B At $1.3 Billion Valuation Expands Enterprise Revenue AI",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWTFhVkw2UmczVU9kY0tneU1oODJFTEtvRFFuQUp2aWJYcUxEdU9lTVdacy1BSGFudXN1WUp4VXJoakx5SHE1SlhqYldSSjRDaXpGZGVmR2g0ajJsYVNOclF3ZW40NUJvSm1jWG1lNkVDY0tNTW05OEJXMVBxdW11OEZJQVlGa041WTdsT2FwaENmdUlwd0JnWUpIQnctams2?oc=5",
-   "date": "2026-11-11T21:13:17+00:00",
-   "source": "Pulse 2.0",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "e6d5d5244187",
-   "title": "Graphon Labs Raises $35M Series A to Give AI Agents Long-Term Memory",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50U2FzNUdwQWRiNXcyRkNJdkdNUnQyS0ZLWElEZzB2YjZCb2lPZ21RY0NZVnRQS1dOT0ZnZ1BMWGkxSVRwdHVJRl9KSnBfQ3F0bFpz?oc=5",
-   "date": "2026-11-11T21:09:17+00:00",
-   "source": "Wowtale",
-   "is_round": true,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "fd62a9767c39",
-   "title": "Why the data center you dread might never even be built",
-   "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-   "date": "2026-11-11T20:15:15+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "a7aed6cebd24",
-   "title": "Meta is losing its longtime head of infrastructure",
-   "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-   "date": "2026-11-11T20:12:01+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "9d8e36e20934",
-   "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-   "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
-   "date": "2026-11-11T20:02:14+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "1907e2beea20",
-   "title": "Fractile Raises $720 Million Series C, Valued at $7 Billion in Boost for UK AI Chip Ambitions",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11QlVUS1BvdXFqWjBPam96UGpUYlJyODlGbDJtNUIxWW9xN3FBOXhSb25La0c2eXlOWUNVLWVQWUJXYlNDYTh1OERuZ1dvVDdyRzV1OXdfZWROMjBBc0ZkWTVJZHNyR3dHTEdUUFM1Qy14b01uNkE?oc=5",
-   "date": "2026-11-11T19:55:00+00:00",
-   "source": "BigGo Finance",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "d32c5cd786ef",
-   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-   "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-   "date": "2026-11-11T19:54:00+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Legal & Gov"
-   ]
-  },
-  {
-   "id": "ebb1a12450c6",
-   "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdUt2N3V3R3cxNk1zakZ6bkN0MGtCakhueGlEaG5pZlhHVFpjYTRmTWZvTUgxNUZkV0k0SFVsckJLVWhySDg5OWxLNDlQOGZxUzI0bEtCMEpjdjE3ZF9iNFZGc3EwZVJlaUNFNVNSZk9GM2NHU1QtTkN2dEw1Zlh0QkZhemd4OEhhNWtRVDItRmZxQ0RfbW1DczdmMlVGcDFhS2RzTkRfVFRENW8?oc=5",
-   "date": "2026-11-11T19:34:55+00:00",
-   "source": "TechCrunch",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "9672cc51a265",
-   "title": "Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model",
-   "link": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
-   "date": "2026-11-11T16:30:22+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra",
-    "Robotics & Industrial"
-   ]
-  },
-  {
-   "id": "b737f74e3c56",
-   "title": "AI agents carry memory and storage like people, so their data needs guarding while in use",
-   "link": "https://siliconangle.com/2026/11/11/cloud-engineering-teams-must-protect-ai-agent-data-use-kubeconna/",
-   "date": "2026-11-11T16:20:46+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Fintech",
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "6f53dc01f191",
-   "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
-   "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
-   "date": "2026-11-11T16:16:07+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Horizontal AI"
-   ]
-  },
-  {
-   "id": "ee4e0396350d",
-   "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-   "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-   "date": "2026-11-11T16:14:44+00:00",
-   "source": "TechCrunch AI",
-   "is_round": false,
-   "sectors": [
-    "Sales & Marketing"
-   ]
-  },
-  {
-   "id": "3d896e9523e0",
-   "title": "AI sales startup Rox raises $100 million at $1.3 billion valuation",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3pteWtIbkhvOHlxVlFZanRqa0h5bDU4QTFhc21HdFNSRWdIdnI2Q0JuZXNPVDN0YTI5X3VaNnpXaGRIbWtJUy1TRlNTd250Y0xZWUY1X2hrcHpsOTZMR2otMjBCV1IwUVV6Nmc2YjA3ME1sYkFBamdYSW5scWc2b05HUm9ibGZLSzNCWFc5dTN4M3ZETF83SA?oc=5",
-   "date": "2026-11-11T16:06:54+00:00",
-   "source": "news.lavx.hu",
-   "is_round": true,
-   "sectors": [
-    "Sales & Marketing"
-   ]
-  },
-  {
-   "id": "fa40900cf495",
-   "title": "PuppyGraph Raises $10 Million Series A Led by Particle Future to Scale Enterprise AI Data Infrastructure",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRFU5OTFPQmNWN0FaMUp4cDEyOE5UV1BlZVhab0t3VU5McTFyV1NHU3BBQ1dETnh3aU1GcVVSM2NIc3ZCZjF1dUF3Tm44aG1VbGxaT3JidWFtcUFQZHAxTnUzZlBfXzlYejA4S1JySFh0cWZyVktLbFEwc2p3VnBYNGZmeFFQa19HV0gyQnRhYnNobnNxdWtDXzlSdXF1VFFuVUpzbXNlVjRGdUFxbjNselhRZWJhdFBsZmhTTHBEX05OQjYzWUg2V05NSjBxZVlCSFBPdHFKTWRPeGRD?oc=5",
-   "date": "2026-11-11T16:00:07+00:00",
-   "source": "Indian Startup Times",
-   "is_round": true,
-   "sectors": [
-    "Dev Tools & Infra"
-   ]
-  },
-  {
-   "id": "8916f8e15151",
-   "title": "Agents may soon be the main workload, and most of the time they’re doing nothing",
-   "link": "https://siliconangle.com/2026/11/11/agent-sandboxing-how-google-s-substrate-isolates-ai-agents-kubeconna/",
-   "date": "2026-11-11T15:59:56+00:00",
-   "source": "SiliconANGLE AI",
-   "is_round": false,
-   "sectors": [
-    "Dev Tools & Infra"
    ]
   }
  ],
